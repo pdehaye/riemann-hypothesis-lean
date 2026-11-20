@@ -131,6 +131,28 @@ so the kernel must reduce `x` to a numeral before continuing. Without it, the ar
 
 No run overflowed the default stack. The kernel's whnf cache and its GMP literal extension keep the unevaluated arguments from blowing up the stack. `force` is therefore a *performance* device: it pays off from about 10k iterations up, which matters at the 131,070 iterations actually used. It is not a stack-depth fix.
 
+## Where is `--tstack=400000` needed? (search so far)
+
+Lean prints *"deep recursion was detected at '…' (potential solution: increase elaboration stack size using the `lean --tstack` flag)"* when a thread runs out of stack. The default thread stack is 8 MiB. The project sets 400 MB. To find files that actually need more than the default, I checked each candidate group below with the default stack. I either re-checked single files with `stack_probe.sh`, or ran a full `lake build` of a module's import chain with `--tstack` temporarily removed from `lakefile.toml` (local edit, never committed). With the second method every module in the chain is checked with the default stack.
+
+| candidate group | why suspected | modules checked with default stack | failures |
+|---|---|---:|---:|
+| kernel-heavy `decide +kernel` files (step b) | long kernel evaluations | 10 | 0 |
+| 33 files with the most extreme syntax (`depth_scan.py`): operator chains up to 1,979 terms, 299-element list literals, 730 KB declarations, nesting depth 19 | deep `Expr` trees | 33 | 0 |
+| tier 1: files with `maxRecDepth` raised and import chains ≤ 226 modules (`PlaceSumSquares` = 240-term prime sum, `PermChar` = `decide`, `BaseInst`, `CrystallineComparison/*`, `FlagDeg`), **full import chains** | the author hit recursion limits here | 429 | 0 |
+| tier 2: `ColFormsInst` (`maxRecDepth 1000000`), `InertiaEigenvalues/{ExistsNeSame,TwistDataAgreeAcrossCoefficients}` (`maxRecDepth 100000`), **full import chains** | same | 322 | 0 |
+| **total** | | **751 unique project modules** (≈ 140k lines) | **0** |
+
+Calibration: the probe does detect stack exhaustion. `InvFiveLogLeSumInvPrimes` fails at ≤ 1 MiB ("Stack overflow detected") and passes at 2 MiB. Below 256 KiB, Mathlib's own initialisation fails ("deep recursion … at 'interpreter'"). The 131k-iteration kernel loop passes even at 512 KiB.
+
+Conclusions so far:
+- **Kernel evaluation, large literals, long polynomial identities and the `maxRecDepth` sites do not need the big stack.** `maxRecDepth` limits a Lean-level recursion counter, which is a different resource from the native stack.
+- The remaining suspects all sit on import chains of 140k–400k lines that have not been built yet:
+  1. `CutMainCpt.lean:945` runs the project command `cpt_copy_thms`. Its helper `go` (`CutCptCopy.lean`) is a **non-tail-recursive `partial def` doing a depth-first walk over the dependency graph of `Formalism.*` declarations**, executed by the *interpreter*. Its recursion depth equals the longest dependency chain, which is a textbook source of "deep recursion at 'interpreter'". Import chain: 1,601 modules, ≈ 395k new lines.
+  2. 50 files using the project tactic `kexactB`, which calls `Kernel.isDefEq` from the elaborator (`OwnStruct.lean`). The cheapest is `AutomorphicMembership/ECure.lean`, ≈ 142k new lines, which also sets `smartUnfolding false`.
+  3. The `maxRecDepth` files on very large import chains (`IwasawaDecomposition/*`, `E8ActionRelativelyAmple`, 1k–15k modules).
+- Another possibility: `--tstack` is not needed at all with this toolchain. The author may have added it under an earlier Lean version, or for a step that was later rewritten.
+
 ## Reproducing
 
 ```bash
