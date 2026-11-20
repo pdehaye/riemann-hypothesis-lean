@@ -1,0 +1,7 @@
+src/Development/AutomorphicSpectrum/Proofs/BlockDecomposition/ComplVal.lean:18:69: warning: Variable name `hP` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hP
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+@@ wall=5.85s rc=0 maxrss=6295MiB

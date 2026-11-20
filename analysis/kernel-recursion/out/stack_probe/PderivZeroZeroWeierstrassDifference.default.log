@@ -1,0 +1,498 @@
+src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/PderivZeroZeroWeierstrassDifference.lean:19:0: warning: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.B.Add0.triple_lintegral_eq`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/PderivZeroZeroWeierstrassDifference.lean:24:8: warning: automatically included section variable(s) unused in theorem `_private.src.Formalism.LocalToGlobal.TorsionIntegrality.FrobeniusFibreCurves.LogarithmicSubstitution.PderivZeroZeroWeierstrassDifference.0.Formalism.L2.Th1.B.Add0.coeff_at1_fin_two_eq_ite`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/PderivZeroZeroWeierstrassDifference.lean:68:16: warning: This simp argument is unused:
+  Finsupp.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Ne.symm hj] at this ⊢
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/PderivZeroZeroWeierstrassDifference.lean:76:12: warning: This simp argument is unused:
+  Finsupp.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Ne.symm hix] at this
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/PderivZeroZeroWeierstrassDifference.lean:85:0: warning: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.B.Add0.pd_two`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/PderivZeroZeroWeierstrassDifference.lean:121:35: warning: This simp argument is unused:
+  map_neg
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [pd, map_add, map_sub, Derivation.leibniz, Derivation.leibniz_pow, smul_eq_mul, nsmul_eq_mul,
+    MvPowerSeries.pderiv_X_self, MvPowerSeries.pderiv_X_of_ne (i := (0 : Fin 2)) (j := 1) (by decide),
+    MvPowerSeries.pderiv_X_of_ne (i := (1 : Fin 2)) (j := 0) (by decide), s0, s1, n01, n10, t0, t1, map_zero, mul_one,
+    mul_zero, zero_mul, add_zero, zero_add, sub_zero, Nat.cast_ofNat, pow_one, pow_zero, Nat.add_one_sub_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/PderivZeroZeroWeierstrassDifference.lean:123:4: warning: This simp argument is unused:
+  MvPowerSeries.pderiv_X_of_ne (i := (1 : Fin 2)) (j := 0) (by decide)
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [pd, map_add, map_sub, map_neg, Derivation.leibniz, Derivation.leibniz_pow, smul_eq_mul,
+    nsmul_eq_mul, MvPowerSeries.pderiv_X_self, MvPowerSeries.pderiv_X_of_ne (i := (0 : Fin 2)) (j := 1) (by decide), s0,
+    s1, n01, n10, t0, t1, map_zero, mul_one, mul_zero, zero_mul, add_zero, zero_add, sub_zero, Nat.cast_ofNat, pow_one,
+    pow_zero, Nat.add_one_sub_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/PderivZeroZeroWeierstrassDifference.lean:123:78: warning: This simp argument is unused:
+  s1
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [pd, map_add, map_sub, map_neg, Derivation.leibniz, Derivation.leibniz_pow, smul_eq_mul,
+    nsmul_eq_mul, MvPowerSeries.pderiv_X_self, MvPowerSeries.pderiv_X_of_ne (i := (0 : Fin 2)) (j := 1) (by decide),
+    MvPowerSeries.pderiv_X_of_ne (i := (1 : Fin 2)) (j := 0) (by decide), s0, n01, n10, t0, t1, map_zero, mul_one,
+    mul_zero, zero_mul, add_zero, zero_add, sub_zero, Nat.cast_ofNat, pow_one, pow_zero, Nat.add_one_sub_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/PderivZeroZeroWeierstrassDifference.lean:123:87: warning: This simp argument is unused:
+  n10
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [pd, map_add, map_sub, map_neg, Derivation.leibniz, Derivation.leibniz_pow, smul_eq_mul,
+    nsmul_eq_mul, MvPowerSeries.pderiv_X_self, MvPowerSeries.pderiv_X_of_ne (i := (0 : Fin 2)) (j := 1) (by decide),
+    MvPowerSeries.pderiv_X_of_ne (i := (1 : Fin 2)) (j := 0) (by decide), s0, s1, n01, t0, t1, map_zero, mul_one,
+    mul_zero, zero_mul, add_zero, zero_add, sub_zero, Nat.cast_ofNat, pow_one, pow_zero, Nat.add_one_sub_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/PderivZeroZeroWeierstrassDifference.lean:123:92: warning: This simp argument is unused:
+  t0
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [pd, map_add, map_sub, map_neg, Derivation.leibniz, Derivation.leibniz_pow, smul_eq_mul,
+    nsmul_eq_mul, MvPowerSeries.pderiv_X_self, MvPowerSeries.pderiv_X_of_ne (i := (0 : Fin 2)) (j := 1) (by decide),
+    MvPowerSeries.pderiv_X_of_ne (i := (1 : Fin 2)) (j := 0) (by decide), s0, s1, n01, n10, t1, map_zero, mul_one,
+    mul_zero, zero_mul, add_zero, zero_add, sub_zero, Nat.cast_ofNat, pow_one, pow_zero, Nat.add_one_sub_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/PderivZeroZeroWeierstrassDifference.lean:123:96: warning: This simp argument is unused:
+  t1
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [pd, map_add, map_sub, map_neg, Derivation.leibniz, Derivation.leibniz_pow, smul_eq_mul,
+    nsmul_eq_mul, MvPowerSeries.pderiv_X_self, MvPowerSeries.pderiv_X_of_ne (i := (0 : Fin 2)) (j := 1) (by decide),
+    MvPowerSeries.pderiv_X_of_ne (i := (1 : Fin 2)) (j := 0) (by decide), s0, s1, n01, n10, t0, map_zero, mul_one,
+    mul_zero, zero_mul, add_zero, zero_add, sub_zero, Nat.cast_ofNat, pow_one, pow_zero, Nat.add_one_sub_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/PderivZeroZeroWeierstrassDifference.lean:124:4: warning: This simp argument is unused:
+  map_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [pd, map_add, map_sub, map_neg, Derivation.leibniz, Derivation.leibniz_pow, smul_eq_mul,
+    nsmul_eq_mul, MvPowerSeries.pderiv_X_self, MvPowerSeries.pderiv_X_of_ne (i := (0 : Fin 2)) (j := 1) (by decide),
+    MvPowerSeries.pderiv_X_of_ne (i := (1 : Fin 2)) (j := 0) (by decide), s0, s1, n01, n10, t0, t1, mul_one, mul_zero,
+    zero_mul, add_zero, zero_add, sub_zero, Nat.cast_ofNat, pow_one, pow_zero, Nat.add_one_sub_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/PderivZeroZeroWeierstrassDifference.lean:124:33: warning: This simp argument is unused:
+  zero_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [pd, map_add, map_sub, map_neg, Derivation.leibniz, Derivation.leibniz_pow, smul_eq_mul,
+    nsmul_eq_mul, MvPowerSeries.pderiv_X_self, MvPowerSeries.pderiv_X_of_ne (i := (0 : Fin 2)) (j := 1) (by decide),
+    MvPowerSeries.pderiv_X_of_ne (i := (1 : Fin 2)) (j := 0) (by decide), s0, s1, n01, n10, t0, t1, map_zero, mul_one,
+    mul_zero, add_zero, zero_add, sub_zero, Nat.cast_ofNat, pow_one, pow_zero, Nat.add_one_sub_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/PderivZeroZeroWeierstrassDifference.lean:124:43: warning: This simp argument is unused:
+  add_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [pd, map_add, map_sub, map_neg, Derivation.leibniz, Derivation.leibniz_pow, smul_eq_mul,
+    nsmul_eq_mul, MvPowerSeries.pderiv_X_self, MvPowerSeries.pderiv_X_of_ne (i := (0 : Fin 2)) (j := 1) (by decide),
+    MvPowerSeries.pderiv_X_of_ne (i := (1 : Fin 2)) (j := 0) (by decide), s0, s1, n01, n10, t0, t1, map_zero, mul_one,
+    mul_zero, zero_mul, zero_add, sub_zero, Nat.cast_ofNat, pow_one, pow_zero, Nat.add_one_sub_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/PderivZeroZeroWeierstrassDifference.lean:124:98: warning: This simp argument is unused:
+  pow_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [pd, map_add, map_sub, map_neg, Derivation.leibniz, Derivation.leibniz_pow, smul_eq_mul,
+    nsmul_eq_mul, MvPowerSeries.pderiv_X_self, MvPowerSeries.pderiv_X_of_ne (i := (0 : Fin 2)) (j := 1) (by decide),
+    MvPowerSeries.pderiv_X_of_ne (i := (1 : Fin 2)) (j := 0) (by decide), s0, s1, n01, n10, t0, t1, map_zero, mul_one,
+    mul_zero, zero_mul, add_zero, zero_add, sub_zero, Nat.cast_ofNat, pow_one, Nat.add_one_sub_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/PderivZeroZeroWeierstrassDifference.lean:142:35: warning: This simp argument is unused:
+  map_neg
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [pd, map_add, map_sub, Derivation.leibniz, Derivation.leibniz_pow, smul_eq_mul, nsmul_eq_mul,
+    MvPowerSeries.pderiv_X_self, MvPowerSeries.pderiv_X_of_ne (i := (0 : Fin 2)) (j := 1) (by decide),
+    MvPowerSeries.pderiv_X_of_ne (i := (1 : Fin 2)) (j := 0) (by decide), s0, s1, n01, n10, t0, t1, map_zero, mul_one,
+    mul_zero, zero_mul, add_zero, zero_add, sub_zero, Nat.cast_ofNat, pow_one, pow_zero, Nat.add_one_sub_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/PderivZeroZeroWeierstrassDifference.lean:143:33: warning: This simp argument is unused:
+  MvPowerSeries.pderiv_X_of_ne (i := (0 : Fin 2)) (j := 1) (by decide)
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [pd, map_add, map_sub, map_neg, Derivation.leibniz, Derivation.leibniz_pow, smul_eq_mul,
+    nsmul_eq_mul, MvPowerSeries.pderiv_X_self, MvPowerSeries.pderiv_X_of_ne (i := (1 : Fin 2)) (j := 0) (by decide), s0,
+    s1, n01, n10, t0, t1, map_zero, mul_one, mul_zero, zero_mul, add_zero, zero_add, sub_zero, Nat.cast_ofNat, pow_one,
+    pow_zero, Nat.add_one_sub_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/PderivZeroZeroWeierstrassDifference.lean:144:74: warning: This simp argument is unused:
+  s0
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [pd, map_add, map_sub, map_neg, Derivation.leibniz, Derivation.leibniz_pow, smul_eq_mul,
+    nsmul_eq_mul, MvPowerSeries.pderiv_X_self, MvPowerSeries.pderiv_X_of_ne (i := (0 : Fin 2)) (j := 1) (by decide),
+    MvPowerSeries.pderiv_X_of_ne (i := (1 : Fin 2)) (j := 0) (by decide), s1, n01, n10, t0, t1, map_zero, mul_one,
+    mul_zero, zero_mul, add_zero, zero_add, sub_zero, Nat.cast_ofNat, pow_one, pow_zero, Nat.add_one_sub_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/PderivZeroZeroWeierstrassDifference.lean:144:82: warning: This simp argument is unused:
+  n01
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [pd, map_add, map_sub, map_neg, Derivation.leibniz, Derivation.leibniz_pow, smul_eq_mul,
+    nsmul_eq_mul, MvPowerSeries.pderiv_X_self, MvPowerSeries.pderiv_X_of_ne (i := (0 : Fin 2)) (j := 1) (by decide),
+    MvPowerSeries.pderiv_X_of_ne (i := (1 : Fin 2)) (j := 0) (by decide), s0, s1, n10, t0, t1, map_zero, mul_one,
+    mul_zero, zero_mul, add_zero, zero_add, sub_zero, Nat.cast_ofNat, pow_one, pow_zero, Nat.add_one_sub_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/PderivZeroZeroWeierstrassDifference.lean:144:92: warning: This simp argument is unused:
+  t0
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [pd, map_add, map_sub, map_neg, Derivation.leibniz, Derivation.leibniz_pow, smul_eq_mul,
+    nsmul_eq_mul, MvPowerSeries.pderiv_X_self, MvPowerSeries.pderiv_X_of_ne (i := (0 : Fin 2)) (j := 1) (by decide),
+    MvPowerSeries.pderiv_X_of_ne (i := (1 : Fin 2)) (j := 0) (by decide), s0, s1, n01, n10, t1, map_zero, mul_one,
+    mul_zero, zero_mul, add_zero, zero_add, sub_zero, Nat.cast_ofNat, pow_one, pow_zero, Nat.add_one_sub_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/PderivZeroZeroWeierstrassDifference.lean:144:96: warning: This simp argument is unused:
+  t1
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [pd, map_add, map_sub, map_neg, Derivation.leibniz, Derivation.leibniz_pow, smul_eq_mul,
+    nsmul_eq_mul, MvPowerSeries.pderiv_X_self, MvPowerSeries.pderiv_X_of_ne (i := (0 : Fin 2)) (j := 1) (by decide),
+    MvPowerSeries.pderiv_X_of_ne (i := (1 : Fin 2)) (j := 0) (by decide), s0, s1, n01, n10, t0, map_zero, mul_one,
+    mul_zero, zero_mul, add_zero, zero_add, sub_zero, Nat.cast_ofNat, pow_one, pow_zero, Nat.add_one_sub_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/PderivZeroZeroWeierstrassDifference.lean:145:4: warning: This simp argument is unused:
+  map_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [pd, map_add, map_sub, map_neg, Derivation.leibniz, Derivation.leibniz_pow, smul_eq_mul,
+    nsmul_eq_mul, MvPowerSeries.pderiv_X_self, MvPowerSeries.pderiv_X_of_ne (i := (0 : Fin 2)) (j := 1) (by decide),
+    MvPowerSeries.pderiv_X_of_ne (i := (1 : Fin 2)) (j := 0) (by decide), s0, s1, n01, n10, t0, t1, mul_one, mul_zero,
+    zero_mul, add_zero, zero_add, sub_zero, Nat.cast_ofNat, pow_one, pow_zero, Nat.add_one_sub_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/PderivZeroZeroWeierstrassDifference.lean:145:33: warning: This simp argument is unused:
+  zero_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [pd, map_add, map_sub, map_neg, Derivation.leibniz, Derivation.leibniz_pow, smul_eq_mul,
+    nsmul_eq_mul, MvPowerSeries.pderiv_X_self, MvPowerSeries.pderiv_X_of_ne (i := (0 : Fin 2)) (j := 1) (by decide),
+    MvPowerSeries.pderiv_X_of_ne (i := (1 : Fin 2)) (j := 0) (by decide), s0, s1, n01, n10, t0, t1, map_zero, mul_one,
+    mul_zero, add_zero, zero_add, sub_zero, Nat.cast_ofNat, pow_one, pow_zero, Nat.add_one_sub_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/PderivZeroZeroWeierstrassDifference.lean:145:53: warning: This simp argument is unused:
+  zero_add
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [pd, map_add, map_sub, map_neg, Derivation.leibniz, Derivation.leibniz_pow, smul_eq_mul,
+    nsmul_eq_mul, MvPowerSeries.pderiv_X_self, MvPowerSeries.pderiv_X_of_ne (i := (0 : Fin 2)) (j := 1) (by decide),
+    MvPowerSeries.pderiv_X_of_ne (i := (1 : Fin 2)) (j := 0) (by decide), s0, s1, n01, n10, t0, t1, map_zero, mul_one,
+    mul_zero, zero_mul, add_zero, sub_zero, Nat.cast_ofNat, pow_one, pow_zero, Nat.add_one_sub_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/PderivZeroZeroWeierstrassDifference.lean:145:98: warning: This simp argument is unused:
+  pow_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [pd, map_add, map_sub, map_neg, Derivation.leibniz, Derivation.leibniz_pow, smul_eq_mul,
+    nsmul_eq_mul, MvPowerSeries.pderiv_X_self, MvPowerSeries.pderiv_X_of_ne (i := (0 : Fin 2)) (j := 1) (by decide),
+    MvPowerSeries.pderiv_X_of_ne (i := (1 : Fin 2)) (j := 0) (by decide), s0, s1, n01, n10, t0, t1, map_zero, mul_one,
+    mul_zero, zero_mul, add_zero, zero_add, sub_zero, Nat.cast_ofNat, pow_one, Nat.add_one_sub_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/PderivZeroZeroWeierstrassDifference.lean:164:35: warning: This simp argument is unused:
+  map_neg
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [pd, map_add, map_sub, Derivation.leibniz, Derivation.leibniz_pow, smul_eq_mul, nsmul_eq_mul,
+    MvPowerSeries.pderiv_X_self, MvPowerSeries.pderiv_X_of_ne (i := (0 : Fin 2)) (j := 1) (by decide),
+    MvPowerSeries.pderiv_X_of_ne (i := (1 : Fin 2)) (j := 0) (by decide), s0, s1, n01, n10, t0, t1, map_zero, mul_one,
+    mul_zero, zero_mul, add_zero, zero_add, sub_zero, Nat.cast_ofNat, pow_one, pow_zero, Nat.add_one_sub_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/PderivZeroZeroWeierstrassDifference.lean:166:4: warning: This simp argument is unused:
+  MvPowerSeries.pderiv_X_of_ne (i := (1 : Fin 2)) (j := 0) (by decide)
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [pd, map_add, map_sub, map_neg, Derivation.leibniz, Derivation.leibniz_pow, smul_eq_mul,
+    nsmul_eq_mul, MvPowerSeries.pderiv_X_self, MvPowerSeries.pderiv_X_of_ne (i := (0 : Fin 2)) (j := 1) (by decide), s0,
+    s1, n01, n10, t0, t1, map_zero, mul_one, mul_zero, zero_mul, add_zero, zero_add, sub_zero, Nat.cast_ofNat, pow_one,
+    pow_zero, Nat.add_one_sub_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/PderivZeroZeroWeierstrassDifference.lean:166:78: warning: This simp argument is unused:
+  s1
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [pd, map_add, map_sub, map_neg, Derivation.leibniz, Derivation.leibniz_pow, smul_eq_mul,
+    nsmul_eq_mul, MvPowerSeries.pderiv_X_self, MvPowerSeries.pderiv_X_of_ne (i := (0 : Fin 2)) (j := 1) (by decide),
+    MvPowerSeries.pderiv_X_of_ne (i := (1 : Fin 2)) (j := 0) (by decide), s0, n01, n10, t0, t1, map_zero, mul_one,
+    mul_zero, zero_mul, add_zero, zero_add, sub_zero, Nat.cast_ofNat, pow_one, pow_zero, Nat.add_one_sub_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/PderivZeroZeroWeierstrassDifference.lean:166:87: warning: This simp argument is unused:
+  n10
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [pd, map_add, map_sub, map_neg, Derivation.leibniz, Derivation.leibniz_pow, smul_eq_mul,
+    nsmul_eq_mul, MvPowerSeries.pderiv_X_self, MvPowerSeries.pderiv_X_of_ne (i := (0 : Fin 2)) (j := 1) (by decide),
+    MvPowerSeries.pderiv_X_of_ne (i := (1 : Fin 2)) (j := 0) (by decide), s0, s1, n01, t0, t1, map_zero, mul_one,
+    mul_zero, zero_mul, add_zero, zero_add, sub_zero, Nat.cast_ofNat, pow_one, pow_zero, Nat.add_one_sub_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/PderivZeroZeroWeierstrassDifference.lean:166:96: warning: This simp argument is unused:
+  t1
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [pd, map_add, map_sub, map_neg, Derivation.leibniz, Derivation.leibniz_pow, smul_eq_mul,
+    nsmul_eq_mul, MvPowerSeries.pderiv_X_self, MvPowerSeries.pderiv_X_of_ne (i := (0 : Fin 2)) (j := 1) (by decide),
+    MvPowerSeries.pderiv_X_of_ne (i := (1 : Fin 2)) (j := 0) (by decide), s0, s1, n01, n10, t0, map_zero, mul_one,
+    mul_zero, zero_mul, add_zero, zero_add, sub_zero, Nat.cast_ofNat, pow_one, pow_zero, Nat.add_one_sub_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/PderivZeroZeroWeierstrassDifference.lean:167:4: warning: This simp argument is unused:
+  map_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [pd, map_add, map_sub, map_neg, Derivation.leibniz, Derivation.leibniz_pow, smul_eq_mul,
+    nsmul_eq_mul, MvPowerSeries.pderiv_X_self, MvPowerSeries.pderiv_X_of_ne (i := (0 : Fin 2)) (j := 1) (by decide),
+    MvPowerSeries.pderiv_X_of_ne (i := (1 : Fin 2)) (j := 0) (by decide), s0, s1, n01, n10, t0, t1, mul_one, mul_zero,
+    zero_mul, add_zero, zero_add, sub_zero, Nat.cast_ofNat, pow_one, pow_zero, Nat.add_one_sub_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/PderivZeroZeroWeierstrassDifference.lean:167:33: warning: This simp argument is unused:
+  zero_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [pd, map_add, map_sub, map_neg, Derivation.leibniz, Derivation.leibniz_pow, smul_eq_mul,
+    nsmul_eq_mul, MvPowerSeries.pderiv_X_self, MvPowerSeries.pderiv_X_of_ne (i := (0 : Fin 2)) (j := 1) (by decide),
+    MvPowerSeries.pderiv_X_of_ne (i := (1 : Fin 2)) (j := 0) (by decide), s0, s1, n01, n10, t0, t1, map_zero, mul_one,
+    mul_zero, add_zero, zero_add, sub_zero, Nat.cast_ofNat, pow_one, pow_zero, Nat.add_one_sub_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/PderivZeroZeroWeierstrassDifference.lean:167:63: warning: This simp argument is unused:
+  sub_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [pd, map_add, map_sub, map_neg, Derivation.leibniz, Derivation.leibniz_pow, smul_eq_mul,
+    nsmul_eq_mul, MvPowerSeries.pderiv_X_self, MvPowerSeries.pderiv_X_of_ne (i := (0 : Fin 2)) (j := 1) (by decide),
+    MvPowerSeries.pderiv_X_of_ne (i := (1 : Fin 2)) (j := 0) (by decide), s0, s1, n01, n10, t0, t1, map_zero, mul_one,
+    mul_zero, zero_mul, add_zero, zero_add, Nat.cast_ofNat, pow_one, pow_zero, Nat.add_one_sub_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/PderivZeroZeroWeierstrassDifference.lean:167:98: warning: This simp argument is unused:
+  pow_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [pd, map_add, map_sub, map_neg, Derivation.leibniz, Derivation.leibniz_pow, smul_eq_mul,
+    nsmul_eq_mul, MvPowerSeries.pderiv_X_self, MvPowerSeries.pderiv_X_of_ne (i := (0 : Fin 2)) (j := 1) (by decide),
+    MvPowerSeries.pderiv_X_of_ne (i := (1 : Fin 2)) (j := 0) (by decide), s0, s1, n01, n10, t0, t1, map_zero, mul_one,
+    mul_zero, zero_mul, add_zero, zero_add, sub_zero, Nat.cast_ofNat, pow_one, Nat.add_one_sub_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/PderivZeroZeroWeierstrassDifference.lean:187:33: warning: This simp argument is unused:
+  MvPowerSeries.pderiv_X_of_ne (i := (0 : Fin 2)) (j := 1) (by decide)
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [pd, map_add, map_sub, map_neg, Derivation.leibniz, Derivation.leibniz_pow, smul_eq_mul,
+    nsmul_eq_mul, MvPowerSeries.pderiv_X_self, MvPowerSeries.pderiv_X_of_ne (i := (1 : Fin 2)) (j := 0) (by decide), s0,
+    s1, n01, n10, t0, t1, map_zero, mul_one, mul_zero, zero_mul, add_zero, zero_add, sub_zero, Nat.cast_ofNat, pow_one,
+    pow_zero, Nat.add_one_sub_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/PderivZeroZeroWeierstrassDifference.lean:188:74: warning: This simp argument is unused:
+  s0
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [pd, map_add, map_sub, map_neg, Derivation.leibniz, Derivation.leibniz_pow, smul_eq_mul,
+    nsmul_eq_mul, MvPowerSeries.pderiv_X_self, MvPowerSeries.pderiv_X_of_ne (i := (0 : Fin 2)) (j := 1) (by decide),
+    MvPowerSeries.pderiv_X_of_ne (i := (1 : Fin 2)) (j := 0) (by decide), s1, n01, n10, t0, t1, map_zero, mul_one,
+    mul_zero, zero_mul, add_zero, zero_add, sub_zero, Nat.cast_ofNat, pow_one, pow_zero, Nat.add_one_sub_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/PderivZeroZeroWeierstrassDifference.lean:188:82: warning: This simp argument is unused:
+  n01
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [pd, map_add, map_sub, map_neg, Derivation.leibniz, Derivation.leibniz_pow, smul_eq_mul,
+    nsmul_eq_mul, MvPowerSeries.pderiv_X_self, MvPowerSeries.pderiv_X_of_ne (i := (0 : Fin 2)) (j := 1) (by decide),
+    MvPowerSeries.pderiv_X_of_ne (i := (1 : Fin 2)) (j := 0) (by decide), s0, s1, n10, t0, t1, map_zero, mul_one,
+    mul_zero, zero_mul, add_zero, zero_add, sub_zero, Nat.cast_ofNat, pow_one, pow_zero, Nat.add_one_sub_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/PderivZeroZeroWeierstrassDifference.lean:188:92: warning: This simp argument is unused:
+  t0
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [pd, map_add, map_sub, map_neg, Derivation.leibniz, Derivation.leibniz_pow, smul_eq_mul,
+    nsmul_eq_mul, MvPowerSeries.pderiv_X_self, MvPowerSeries.pderiv_X_of_ne (i := (0 : Fin 2)) (j := 1) (by decide),
+    MvPowerSeries.pderiv_X_of_ne (i := (1 : Fin 2)) (j := 0) (by decide), s0, s1, n01, n10, t1, map_zero, mul_one,
+    mul_zero, zero_mul, add_zero, zero_add, sub_zero, Nat.cast_ofNat, pow_one, pow_zero, Nat.add_one_sub_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/PderivZeroZeroWeierstrassDifference.lean:189:4: warning: This simp argument is unused:
+  map_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [pd, map_add, map_sub, map_neg, Derivation.leibniz, Derivation.leibniz_pow, smul_eq_mul,
+    nsmul_eq_mul, MvPowerSeries.pderiv_X_self, MvPowerSeries.pderiv_X_of_ne (i := (0 : Fin 2)) (j := 1) (by decide),
+    MvPowerSeries.pderiv_X_of_ne (i := (1 : Fin 2)) (j := 0) (by decide), s0, s1, n01, n10, t0, t1, mul_one, mul_zero,
+    zero_mul, add_zero, zero_add, sub_zero, Nat.cast_ofNat, pow_one, pow_zero, Nat.add_one_sub_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/PderivZeroZeroWeierstrassDifference.lean:189:33: warning: This simp argument is unused:
+  zero_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [pd, map_add, map_sub, map_neg, Derivation.leibniz, Derivation.leibniz_pow, smul_eq_mul,
+    nsmul_eq_mul, MvPowerSeries.pderiv_X_self, MvPowerSeries.pderiv_X_of_ne (i := (0 : Fin 2)) (j := 1) (by decide),
+    MvPowerSeries.pderiv_X_of_ne (i := (1 : Fin 2)) (j := 0) (by decide), s0, s1, n01, n10, t0, t1, map_zero, mul_one,
+    mul_zero, add_zero, zero_add, sub_zero, Nat.cast_ofNat, pow_one, pow_zero, Nat.add_one_sub_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/PderivZeroZeroWeierstrassDifference.lean:189:53: warning: This simp argument is unused:
+  zero_add
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [pd, map_add, map_sub, map_neg, Derivation.leibniz, Derivation.leibniz_pow, smul_eq_mul,
+    nsmul_eq_mul, MvPowerSeries.pderiv_X_self, MvPowerSeries.pderiv_X_of_ne (i := (0 : Fin 2)) (j := 1) (by decide),
+    MvPowerSeries.pderiv_X_of_ne (i := (1 : Fin 2)) (j := 0) (by decide), s0, s1, n01, n10, t0, t1, map_zero, mul_one,
+    mul_zero, zero_mul, add_zero, sub_zero, Nat.cast_ofNat, pow_one, pow_zero, Nat.add_one_sub_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/PderivZeroZeroWeierstrassDifference.lean:189:98: warning: This simp argument is unused:
+  pow_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [pd, map_add, map_sub, map_neg, Derivation.leibniz, Derivation.leibniz_pow, smul_eq_mul,
+    nsmul_eq_mul, MvPowerSeries.pderiv_X_self, MvPowerSeries.pderiv_X_of_ne (i := (0 : Fin 2)) (j := 1) (by decide),
+    MvPowerSeries.pderiv_X_of_ne (i := (1 : Fin 2)) (j := 0) (by decide), s0, s1, n01, n10, t0, t1, map_zero, mul_one,
+    mul_zero, zero_mul, add_zero, zero_add, sub_zero, Nat.cast_ofNat, pow_one, Nat.add_one_sub_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/PderivZeroZeroWeierstrassDifference.lean:199:93: warning: This simp argument is unused:
+  zero_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [pd, Derivation.leibniz, Derivation.leibniz_pow, map_sub, map_add, smul_eq_mul, nsmul_eq_mul,
+    MvPowerSeries.pderiv_X_self, MvPowerSeries.pderiv_X_of_ne (i := (0 : Fin 2)) (j := 1) (by decide),
+    MvPowerSeries.pderiv_X_of_ne (i := (1 : Fin 2)) (j := 0) (by decide), mul_one, mul_zero, add_zero, zero_add,
+    Nat.cast_ofNat, pow_one, Nat.add_one_sub_one, pow_zero, sub_zero, pd_two, map_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/PderivZeroZeroWeierstrassDifference.lean:200:14: warning: This simp argument is unused:
+  zero_add
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [pd, Derivation.leibniz, Derivation.leibniz_pow, map_sub, map_add, smul_eq_mul, nsmul_eq_mul,
+    MvPowerSeries.pderiv_X_self, MvPowerSeries.pderiv_X_of_ne (i := (0 : Fin 2)) (j := 1) (by decide),
+    MvPowerSeries.pderiv_X_of_ne (i := (1 : Fin 2)) (j := 0) (by decide), mul_one, mul_zero, zero_mul, add_zero,
+    Nat.cast_ofNat, pow_one, Nat.add_one_sub_one, pow_zero, sub_zero, pd_two, map_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/PderivZeroZeroWeierstrassDifference.lean:200:70: warning: This simp argument is unused:
+  pow_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [pd, Derivation.leibniz, Derivation.leibniz_pow, map_sub, map_add, smul_eq_mul, nsmul_eq_mul,
+    MvPowerSeries.pderiv_X_self, MvPowerSeries.pderiv_X_of_ne (i := (0 : Fin 2)) (j := 1) (by decide),
+    MvPowerSeries.pderiv_X_of_ne (i := (1 : Fin 2)) (j := 0) (by decide), mul_one, mul_zero, zero_mul, add_zero,
+    zero_add, Nat.cast_ofNat, pow_one, Nat.add_one_sub_one, sub_zero, pd_two, map_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/PderivZeroZeroWeierstrassDifference.lean:203:0: warning: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.B.Add0.series_at_variable_const`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/PderivZeroZeroWeierstrassDifference.lean:232:62: warning: This simp argument is unused:
+  map_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [map_sub, map_add, map_mul, map_pow, map_ofNat] at this
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/PderivZeroZeroWeierstrassDifference.lean:279:0: warning: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.B.Add0.evalYZero_eq`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/PderivZeroZeroWeierstrassDifference.lean:364:28: warning: This simp argument is unused:
+  map_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [pd, map_sub, Derivation.leibniz, Derivation.leibniz_pow, smul_eq_mul, nsmul_eq_mul,
+    MvPowerSeries.pderiv_X_self, MvPowerSeries.pderiv_X_of_ne (i := (1 : Fin 2)) (j := 0) (by decide),
+    Derivation.map_one_eq_zero, mul_one, mul_zero, zero_mul, add_zero, zero_add, sub_zero, Nat.cast_ofNat, pow_one,
+    Nat.add_one_sub_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/PderivZeroZeroWeierstrassDifference.lean:366:53: warning: This simp argument is unused:
+  zero_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [pd, map_sub, map_one, Derivation.leibniz, Derivation.leibniz_pow, smul_eq_mul, nsmul_eq_mul,
+    MvPowerSeries.pderiv_X_self, MvPowerSeries.pderiv_X_of_ne (i := (1 : Fin 2)) (j := 0) (by decide),
+    Derivation.map_one_eq_zero, mul_one, mul_zero, add_zero, zero_add, sub_zero, Nat.cast_ofNat, pow_one,
+    Nat.add_one_sub_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/PderivZeroZeroWeierstrassDifference.lean:366:73: warning: This simp argument is unused:
+  zero_add
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [pd, map_sub, map_one, Derivation.leibniz, Derivation.leibniz_pow, smul_eq_mul, nsmul_eq_mul,
+    MvPowerSeries.pderiv_X_self, MvPowerSeries.pderiv_X_of_ne (i := (1 : Fin 2)) (j := 0) (by decide),
+    Derivation.map_one_eq_zero, mul_one, mul_zero, zero_mul, add_zero, sub_zero, Nat.cast_ofNat, pow_one,
+    Nat.add_one_sub_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/PderivZeroZeroWeierstrassDifference.lean:366:83: warning: This simp argument is unused:
+  sub_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [pd, map_sub, map_one, Derivation.leibniz, Derivation.leibniz_pow, smul_eq_mul, nsmul_eq_mul,
+    MvPowerSeries.pderiv_X_self, MvPowerSeries.pderiv_X_of_ne (i := (1 : Fin 2)) (j := 0) (by decide),
+    Derivation.map_one_eq_zero, mul_one, mul_zero, zero_mul, add_zero, zero_add, Nat.cast_ofNat, pow_one,
+    Nat.add_one_sub_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+src/Formalism/LocalToGlobal/TorsionIntegrality/FrobeniusFibreCurves/LogarithmicSubstitution/PderivZeroZeroWeierstrassDifference.lean:394:0: warning: automatically included section variable(s) unused in theorem `Formalism.L2.Th1.B.Add0.sigS_cc`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+@@ wall=10.08s rc=0 maxrss=6338MiB

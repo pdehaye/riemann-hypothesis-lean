@@ -1,0 +1,22 @@
+src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/DiagZEqNegAddY.lean:621:34: warning: This simp argument is unused:
+  map_neg
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [negDiagY, map_ofNat, map_add, map_sub, map_mul, map_pow, WeierstrassCurve.map, Function.comp_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/DiagZEqNegAddY.lean:626:31: warning: This simp argument is unused:
+  map_neg
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [diagZ, map_ofNat, map_add, map_sub, map_mul, map_pow, WeierstrassCurve.map, Function.comp_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/DiagZEqNegAddY.lean:626:49: warning: This simp argument is unused:
+  map_sub
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [diagZ, map_ofNat, map_neg, map_add, map_mul, map_pow, WeierstrassCurve.map, Function.comp_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+@@ wall=47.91s rc=0 maxrss=8213MiB

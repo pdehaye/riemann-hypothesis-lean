@@ -1,0 +1,9 @@
+src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/KummerCochainCupProductCongruence.lean:32:2: warning: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+@@ wall=11.51s rc=0 maxrss=6362MiB
