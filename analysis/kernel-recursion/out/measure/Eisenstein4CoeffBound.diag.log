@@ -1,0 +1,35 @@
+[diag] Diagnostics
+  [reduction] unfolded reducible declarations (max: 567, num: 1):
+    [reduction] outParam ↦ 567
+  [kernel] unfolded declarations (max: 838, num: 4):
+    [kernel] Int.casesOn ↦ 838
+    [kernel] Int.rec ↦ 829
+    [kernel] HMul.hMul ↦ 517
+    [kernel] Mul.mul ↦ 515
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+[diag] Diagnostics
+  [reduction] unfolded reducible declarations (max: 728, num: 1):
+    [reduction] outParam ↦ 728
+  [kernel] unfolded declarations (max: 3354, num: 20):
+    [kernel] Int.casesOn ↦ 3354
+    [kernel] Int.rec ↦ 3315
+    [kernel] HMul.hMul ↦ 1934
+    [kernel] Mul.mul ↦ 1932
+    [kernel] Add.add ↦ 1119
+    [kernel] HAdd.hAdd ↦ 1119
+    [kernel] NatCast.natCast ↦ 1108
+    [kernel] Int.add.match_1 ↦ 1086
+    [kernel] Nat.cast ↦ 1042
+    [kernel] Div.div ↦ 880
+    [kernel] HDiv.hDiv ↦ 880
+    [kernel] Nat.casesOn ↦ 838
+    [kernel] Nat.rec ↦ 835
+    [kernel] Rat.den ↦ 703
+    [kernel] Int.neg.match_1 ↦ 655
+    [kernel] Rat.num ↦ 638
+    [kernel] Int.mul ↦ 635
+    [kernel] HSub.hSub ↦ 618
+    [kernel] Sub.sub ↦ 618
+    [kernel] OfNat.ofNat ↦ 576
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+@@ wall=5.13s rc=0 maxrss=6576MiB

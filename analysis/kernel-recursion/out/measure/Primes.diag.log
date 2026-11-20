@@ -1,0 +1,27 @@
+[diag] Diagnostics
+  [kernel] unfolded declarations (max: 6695, num: 23):
+    [kernel] Decidable.casesOn ↦ 6695
+    [kernel] Decidable.rec ↦ 6695
+    [kernel] dite ↦ 2124
+    [kernel] Nat.rec ↦ 1971
+    [kernel] instDecidableAnd.match_1 ↦ 1825
+    [kernel] Bool.casesOn ↦ 1686
+    [kernel] Bool.rec ↦ 1589
+    [kernel] decidable_of_decidable_of_iff ↦ 1579
+    [kernel] instDecidableEqNat ↦ 1482
+    [kernel] Nat.decEq ↦ 1482
+    [kernel] Nat.decEq.match_1 ↦ 1482
+    [kernel] HMod.hMod ↦ 1480
+    [kernel] Mod.mod ↦ 1480
+    [kernel] Nat.decidable_dvd ↦ 1480
+    [kernel] instDecidableNot ↦ 1479
+    [kernel] Nat.casesOn ↦ 1322
+    [kernel] Nat.decidableBallLT._f ↦ 1239
+    [kernel] Nat.decidableBallLT.match_5 ↦ 1239
+    [kernel] Nat.decidableBallLT.match_1 ↦ 1230
+    [kernel] Nat.decidableBallLT.match_3 ↦ 1230
+    [kernel] List.rec ↦ 945
+    [kernel] Add.add ↦ 680
+    [kernel] HAdd.hAdd ↦ 680
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+@@ wall=8.74s rc=0 maxrss=6724MiB

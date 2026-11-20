@@ -1,0 +1,52 @@
+[diag] Diagnostics
+  [kernel] unfolded declarations (max: 278477, num: 48):
+    [kernel] Bool.casesOn ↦ 278477
+    [kernel] Bool.rec ↦ 229329
+    [kernel] Decidable.casesOn ↦ 180216
+    [kernel] Decidable.rec ↦ 180216
+    [kernel] Nat.rec ↦ 132514
+    [kernel] ite ↦ 131064
+    [kernel] Add.add ↦ 131027
+    [kernel] HAdd.hAdd ↦ 131027
+    [kernel] HPow.hPow ↦ 130908
+    [kernel] Pow.pow ↦ 130908
+    [kernel] Nat.casesOn ↦ 99384
+    [kernel] instDecidableEqNat ↦ 81917
+    [kernel] Nat.decEq ↦ 81917
+    [kernel] Nat.decEq.match_1 ↦ 81917
+    [kernel] OfNat.ofNat ↦ 65546
+    [kernel] force ↦ 65533
+    [kernel] force.match_1 ↦ 65533
+    [kernel] and ↦ 65494
+    [kernel] Bool.and.match_1 ↦ 65494
+    [kernel] NPow.npow ↦ 65454
+    [kernel] NatPow.pow ↦ 65454
+    [kernel] instDecidableEqBool ↦ 49150
+    [kernel] Bool.decEq ↦ 49150
+    [kernel] Bool.decEq.match_1 ↦ 49150
+    [kernel] dite ↦ 49149
+    [kernel] Nat.decLe ↦ 49149
+    [kernel] Nat.instDecidableCoprime ↦ 49149
+    [kernel] pr ↦ 49149
+    [kernel] Div.div ↦ 49110
+    [kernel] HDiv.hDiv ↦ 49110
+    [kernel] HMul.hMul ↦ 37032
+    [kernel] Mul.mul ↦ 37032
+    [kernel] Nat.blt ↦ 34377
+    [kernel] HSub.hSub ↦ 33487
+    [kernel] Sub.sub ↦ 33487
+    [kernel] loop._f ↦ 32767
+    [kernel] loop.match_1 ↦ 32767
+    [kernel] or ↦ 32766
+    [kernel] HMod.hMod ↦ 32766
+    [kernel] Mod.mod ↦ 32766
+    [kernel] cond.match_1 ↦ 32766
+    [kernel] nxt ↦ 32766
+    [kernel] tstR ↦ 32727
+    [kernel] Nat.factorial._f ↦ 1084
+    [kernel] Nat.factorial.match_1 ↦ 1084
+    [kernel] Nat.brecOn ↦ 723
+    [kernel] Nat.brecOn.go ↦ 723
+    [kernel] Nat.factorial ↦ 722
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+@@ wall=20.74s rc=0 maxrss=8150MiB

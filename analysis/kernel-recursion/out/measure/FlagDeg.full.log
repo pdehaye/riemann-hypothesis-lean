@@ -1,0 +1,38 @@
+import took 3.26s
+src/Formalism/DegreeFormula/PointDegree/FlagDeg.lean:60:15: warning: This simp argument is unused:
+  smul_pow
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [smul_eq_C_mul, mul_pow, Finset.prod_mul_distrib, map_pow, map_natCast,
+    Finsupp.coe_equivFunOnFinite_symm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+cumulative profiling times:
+	attribute application 0.12ms
+	blocked (unaccounted) 2.11ms
+	compilation (IR) 0.0443ms
+	compilation (LCNF base) 0.821ms
+	compilation (LCNF impure) 0.195ms
+	compilation (LCNF mono) 0.283ms
+	congr simp thm 7.73ms
+	elaboration 55.1ms
+	fix level params 0.967ms
+	import 3.26s
+	initialization 27.2ms
+	instantiate metavars 3.69ms
+	interpretation 459ms
+	let-to-have transformation 0.168ms
+	linting 17.2ms
+	module linting 0.0016ms
+	norm_num 6.16ms
+	overlappingInstancesLinter 6.5ms
+	parsing 11.3ms
+	process pre-definitions 11.4ms
+	ring 32.6ms
+	share common exprs 9.71ms
+	simp 192ms
+	tactic execution 386ms
+	tacticAnalysis 34.9ms
+	type checking 119ms
+	typeclass inference 585ms
+@@ wall=5.17s rc=0 maxrss=6583MiB

@@ -1,0 +1,9 @@
+src/Formalism/DegreeFormula/PointDegree/FlagDeg.lean:60:15: warning: This simp argument is unused:
+  smul_pow
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [smul_eq_C_mul, mul_pow, Finset.prod_mul_distrib, map_pow, map_natCast,
+    Finsupp.coe_equivFunOnFinite_symm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+@@ wall=5.19s rc=0 maxrss=6572MiB

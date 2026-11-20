@@ -1,0 +1,157 @@
+# Kernel recursion in the RH Lean proof
+
+Date: 2026-11-20. Toolchain `leanprover/lean4:v4.33.1`, Mathlib `0df444a3`. Machine: 4 cores, 15 GB RAM.
+
+"Kernel recursion" has three meanings here. This report covers all three:
+
+1. **Kernel evaluation.** Proofs whose checking makes the kernel *run* recursive definitions, such as `decide`, `decide +kernel` and `rfl` on closed computations.
+2. **Recursion schemes.** How recursive definitions reach the kernel: recursors (`Nat.rec`, `List.rec`, …), structural recursion (`brecOn`/`below`), and well-founded recursion (`WellFounded.fix`).
+3. **Recursion depth.** Native stack depth in the checker. The project passes `--tstack=400000` (a thread stack of about 400 MB).
+
+## TL;DR
+
+- **The kernel is never bypassed.** The code has 0 `native_decide`, `Lean.ofReduceBool`, `implemented_by`, `unsafe` or `debug.skipKernelTC`. Every computation is checked by the kernel itself.
+- **Real computation in the kernel happens through 151 `decide +kernel` calls in 34 files.** A handful of them run recursive Boolean checkers over many iterations: prime tables, Chebyshev-type bounds, and Lucas primality certificates. The largest is a structurally recursive loop of **131,070 iterations** (`ChebyshevPrimeBounds/SmallLoop.lean`), which costs **37 s of kernel time** and **655k `Nat.rec` unfoldings**.
+- **These kernel computations dominate the build time of the files they appear in** (62–87% of wall time). They are cheap to isolate, because each depends only on Mathlib and at most a few project files.
+- **None of the measured files needs the large stack.** Every one of the 10 measured targets passes with the default stack, including the 131k-iteration loop. A variant without the `force` trick (step 4) also stays within the default stack. So `--tstack` must be needed somewhere else in the tree. Finding where would require building more of the tree with the default stack (see "Next steps").
+- **Main theorem coverage.** `Supplements.Kernels.MainTheorems` transitively imports 175,128 of the 175,187 source files. Essentially every kernel computation below lies on the path to the main theorem.
+
+## (a) Static analysis
+
+Tools:
+- `static_scan.py`: a text-level scan of `src/` with comments and strings stripped. It takes about 4 minutes on 4 cores.
+- `RecursionScan.lean`: an environment-level scan of built `.olean` files.
+
+Outputs:
+- `out/static_summary.txt`
+- `out/static_scan_summary.json` (the full per-file JSON is regenerated locally and git-ignored)
+- `out/decide_kernel_sites.csv`
+- `out/recursion_scan_targets.csv`
+
+### Size
+
+175,187 files, 17.55 M lines.
+
+### Constructs that make the kernel compute
+
+| construct | count | comment |
+|---|---:|---|
+| `decide +kernel` | **151** in 34 files | Skips the elaborator's check; the kernel evaluates `Decidable.decide p` directly. All heavy computation goes through this path. |
+| `by decide` | 6,054 | Almost all tiny: `Fin 2`, small `Finset` identities, `absurd h (by decide)` |
+| `decide` on a line with a ≥4-digit numeral | 411 | Mostly modular-exponentiation facts, e.g. `34 ^ 96 % 413718278401 = …` in `SpanPowerMembership/Primes.lean`. The kernel computes these with GMP-accelerated `Nat` operations. |
+| `simp (config := {decide := true})` | 26 | |
+| `:= rfl` / `by rfl` / `exact rfl` | 43,040 / 494 / 47 | Definitional-equality checks. Mostly unfolding definitions, not computation. |
+| `Iff.rfl`/`HEq.rfl`, `from rfl` | 7,379 / 6,810 | |
+| `unfold` / `change` / `delta` | 112,002 / 52,378 / 2,539 | Elaborator-side. These lead to definitional-equality checks in the kernel. |
+| `norm_num` | 26,839 | Produces certificates the kernel checks cheaply. This includes 13 `Nat.Prime <literal>` facts up to `Nat.Prime 763521676554817`. |
+| `native_decide`, `ofReduceBool`, `implemented_by`, `unsafe`, `skipKernelTC` | **0** | |
+
+### Recursion schemes in the source
+
+| construct | count | comment |
+|---|---:|---|
+| `Nat.rec` used directly | 339 | Mostly `noncomputable` sequence constructions (`fun n => Nat.rec x₀ (fun _ s => g s) n`), concentrated in `Development/AbelianVarietyTheory/Proofs/DivisorProofs` and `InertiaEigenvalues`. They are proof devices, not evaluated. |
+| `Nat.recOn`, `Nat.strongRec*`, `Nat.le_induction`, … | 534 | |
+| other `X.rec` | 374 | |
+| `brecOn` / `below` mentioned explicitly | 192 | |
+| `termination_by` / `decreasing_by` | 20 / 19 | Well-founded recursion. The kernel can only reduce it by unfolding `Acc` proofs, and none of it is evaluated by `decide`. |
+| `WellFounded.fix` used explicitly | 1 | `rw [WellFounded.fix_eq]` in `RankLevelDatumIdempotentEqOfSameShape.lean` |
+| `partial def` | 2 | Both in metaprograms, which run in the elaborator, not the kernel |
+| self-recursive `def` (heuristic) | ~2,740 | Noisy: it also counts a name that merely reappears in its own body |
+
+### Options related to recursion and transparency
+
+| option | sites | max | comment |
+|---|---:|---:|---|
+| `maxRecDepth` | 34 in 22 files | 1,000,000 | The maximum is `ColFormsInst.lean:25` (`norm_num` proving `Nat.Prime 14145788201`). Most others are 20,000–100,000. This limit applies to the elaborator, not the kernel. |
+| `maxHeartbeats` | 57,556 in 54,080 files | 64,000,000 | The most common value is 1,000,000 (50,873 sites) |
+| `synthInstance.maxHeartbeats` | 7,381 | 1,000,000 | |
+| `backward.isDefEq.respectTransparency` | 1,879 (+87 `.types`) | | |
+| `allowUnsafeReducibility` | 37 | | Changes reducibility attributes after the fact. This only affects the elaborator's view; the kernel ignores reducibility. |
+| `smartUnfolding false` | 3 | | |
+
+### Code that talks to the kernel directly
+
+- `Formalism/LocalToGlobal/NumberFieldFamilies/OwnStruct.lean:11` calls `Kernel.isDefEq` from a tactic (`kdefeq`), using the kernel as an oracle for definitional equality during elaboration.
+- `Formalism/HermitianCurvature/HermitianCurvatureProofs/CutCptCopy.lean` uses `addDecl` to re-add a dependency cone of declarations under new names (`…Cpt`), with constants substituted. These declarations are re-checked by the kernel.
+
+### Environment-level scan (`RecursionScan.lean`, built targets only)
+
+The scan covered 467 declarations in the 21 built target modules:
+- Maximum proof-term depth is 142 (`GlobalTheory.CuspGL.sep_numerical_ineq`).
+- There are 157 `of_decide_eq_true`/`_false` applications, each the elaborated form of a `decide` proof.
+- 6 definitions are compiled via `brecOn` (structural recursion).
+- The largest `Nat` literal is 1,185 bits.
+
+The heavy `decide +kernel` proofs are *small* terms. Their cost is all in evaluation, so term-size metrics cannot predict kernel time. The unfolding counters in (b) can.
+
+## (b) Dynamic measurements
+
+The setup:
+- Built with `lake build` over the 21 small-closure targets: 195 s wall, 10.3 GB peak, Mathlib from cache.
+- Each target file was then re-checked by `measure.sh` in four configurations: full (project settings plus profiler), `debug.skipKernelTC=true`, default stack, and `diagnostics=true`.
+- Logs are in `out/measure/`. "kernel" means the profiler's *type checking* category.
+
+| file | full wall | kernel | no-kernel wall | default stack | top kernel unfoldings |
+|---|---:|---:|---:|---|---|
+| `ChebyshevPrimeBounds/SmallLoop` | 42.9 s | **37.2 s** | 5.7 s | ok | `Nat.rec` 655k, `Nat.casesOn` 524k, `Pow.pow` 524k, `force` 393k, `loop._f` 131k |
+| `InvFiveLogLeSumInvPrimes` | 32.5 s | **20.2 s** (`table_ok` 19.5 s) | 12.3 s | ok | `Bool.casesOn` 722k, `Bool.rec` 603k, `Decidable.casesOn` 374k |
+| `IRRPrimeRecipSum` | 31.2 s | **24.7 s** (one decl 23.3 s) | 10.9 s | ok | `Bool.rec` 748k, `and` 598k |
+| `DyadicPrimeIntervals/Run1` (Run2–4 similar) | 20.2 s | **14.5 s** | 5.6 s | ok | `Bool.casesOn` 278k, `Decidable.casesOn` 180k |
+| `MinorOrderedEntries` | 10.3 s | 0.65 s | 9.4 s | ok | `Int.casesOn` ≈1k |
+| `PsiUpperBoundOfLtThirtyMulSixPow` | 7.8 s | 0.21 s | 7.9 s | ok | `List.rec` 1.8k |
+| `SpanPowerMembership/Primes` (115-digit Lucas prime) | 7.2 s | 0.85 s | 6.1 s | ok | `Decidable.casesOn` 6.7k, `Nat.rec` 2k |
+| `Eisenstein4CoeffBound` (`bernoulli 4/6` by `decide +kernel`) | 5.3 s | 0.15 s | 4.9 s | ok | `Int.casesOn` 3.4k |
+| `RankLevelDatumIdempotentEqOfSameShape` (`WellFounded.fix_eq`) | 5.7 s | 0.12 s | 5.5 s | ok | `List.rec` 1.1k |
+| `FlagDeg` (`maxRecDepth 4000`) | 5.2 s | 0.12 s | 5.3 s | ok | – |
+
+About 3.5 s of every run is importing Mathlib.
+
+Observations:
+
+- **The four kernel-heavy files** (`SmallLoop`, `Run1–4`, `InvFive…`, `IRRPrimeRecipSum`) spend 62–87% of their wall time in a single kernel check. Run2–4 each built in 21–23 s. Together these files cost about 2.3 minutes of kernel time (≈140 s), which is negligible against a 17 M-line build but clearly visible locally.
+- **The 115-digit prime is cheap (0.85 s).** The Lucas certificate pushes all the work into GMP-backed `Nat` literal arithmetic (`Nat.pow`, `Nat.mod`), which the kernel performs natively instead of by unfolding.
+- **No file needs `--tstack`.** Every default-stack run finished with the same result and timing.
+
+### Experiment: what does `force` buy?
+
+The loops in `SmallLoop.lean` and `DyadicPrimeIntervals/SmallLoop.lean` wrap every argument in
+
+```lean
+def force (x : Nat) (f : Nat → Bool) : Bool := match x with | 0 => f 0 | k + 1 => f (k + 1)
+```
+
+so the kernel must reduce `x` to a numeral before continuing. Without it, the arguments would build up as unevaluated expressions such as `((0+1)+1)+…`. `experiments/` contains copies of the loop with and without `force`, at 2k, 8k and 32k iterations, run with the default stack and with the large one. Results are in `out/experiments/summary.txt`.
+
+| iterations | with `force` | without `force` |
+|---:|---:|---:|
+| 2,000 | 0.41 s | 0.27 s |
+| 8,000 | 2.28 s | 1.84 s |
+| 32,000 | **8.59 s** | **13.2 s** |
+
+No run overflowed the default stack. The kernel's whnf cache and its GMP literal extension keep the unevaluated arguments from blowing up the stack. `force` is therefore a *performance* device: it pays off from about 10k iterations up, which matters at the 131,070 iterations actually used. It is not a stack-depth fix.
+
+## Reproducing
+
+```bash
+# (a) static
+python3 -I analysis/kernel-recursion/static_scan.py src analysis/kernel-recursion/out
+# (b) build targets, then measure
+lake exe cache get
+lake build Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ChebyshevPrimeBounds.SmallLoop   # etc.
+analysis/kernel-recursion/measure.sh analysis/kernel-recursion/out/measure <Module>...
+# environment scan of built modules
+lake env lean --tstack=400000 --run analysis/kernel-recursion/RecursionScan.lean out.csv <Prefix,...> <Module>...
+```
+
+## Next steps
+
+1. **Find out where `--tstack` is actually needed.** Build progressively larger closures with the default stack and record the first stack overflow, if any. Good candidates:
+   - files using `maxRecDepth 100000` (e.g. `InertiaEigenvalues/*`);
+   - `CyclotomicIsCyclotomicExtension` (27 `decide +kernel`, 791-module closure);
+   - `ColFormsInst` (`maxRecDepth 1000000`, 423 modules).
+
+   The overflow may be in the elaborator rather than the kernel. The log says which.
+2. **Measure the remaining `decide +kernel` files**, whose closures span 50–1,164 modules (`out/decide_kernel_sites.csv`).
+3. **Replay independently.** Export the environment with `lean4export` and replay it in `leanchecker`, nanoda or lean4lean, recording recursion depth per declaration. That gives kernel stack depth directly, without relying on Lean's own profiler.
+4. **Run `RecursionScan.lean` on the full environment** after a full build, to get the complete recursor-use map.

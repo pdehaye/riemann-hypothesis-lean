@@ -1,0 +1,96 @@
+[diag] Diagnostics
+  [reduction] unfolded reducible declarations (max: 2635, num: 3):
+    [reduction] outParam ↦ 2635
+    [reduction] MvPolynomial ↦ 1447
+    [reduction] FunLike ↦ 557
+  [kernel] unfolded declarations (max: 886, num: 3):
+    [kernel] HSMul.hSMul ↦ 886
+    [kernel] SMul.smul ↦ 886
+    [kernel] Mul.mul ↦ 563
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+[diag] Diagnostics
+  [reduction] unfolded declarations (max: 2454, num: 1):
+    [reduction] OfNat.ofNat ↦ 2454
+  [reduction] unfolded reducible declarations (max: 712, num: 1):
+    [reduction] outParam ↦ 712
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+[diag] Diagnostics
+  [reduction] unfolded reducible declarations (max: 662, num: 1):
+    [reduction] outParam ↦ 662
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+[diag] Diagnostics
+  [reduction] unfolded declarations (max: 4293, num: 5):
+    [reduction] OfNat.ofNat ↦ 4293
+    [reduction] Matrix ↦ 1103
+    [reduction] SetLike.coe ↦ 964
+    [reduction] Set ↦ 782
+    [reduction] unitary ↦ 592
+  [reduction] unfolded reducible declarations (max: 2948, num: 7):
+    [reduction] unitaryGroup ↦ 2948
+    [reduction] AddSubgroup.toAddSubmonoid ↦ 1728
+    [reduction] Submonoid.toSubsemigroup ↦ 1644
+    [reduction] AddSubmonoid.toAddSubsemigroup ↦ 1368
+    [reduction] outParam ↦ 615
+    [reduction] Prod.fst ↦ 532
+    [reduction] Subsemigroup.carrier ↦ 508
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+[diag] Diagnostics
+  [reduction] unfolded reducible declarations (max: 510, num: 1):
+    [reduction] outParam ↦ 510
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+src/Development/AbelianVarietyTheory/BlockTheory/TwistedDiscreteSeries/MinorOrderedEntries.lean:79:0: warning: automatically included section variable(s) unused in theorem `GlobalTheory.IndefiniteRowSideFullHecke.MinorOrderedEntries.weylSub_le`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+[diag] Diagnostics
+  [reduction] unfolded declarations (max: 1759, num: 1):
+    [reduction] OfNat.ofNat ↦ 1759
+  [reduction] unfolded reducible declarations (max: 649, num: 1):
+    [reduction] outParam ↦ 649
+  [kernel] unfolded declarations (max: 612, num: 1):
+    [kernel] HMul.hMul ↦ 612
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+[diag] Diagnostics
+  [reduction] unfolded declarations (max: 4313, num: 4):
+    [reduction] OfNat.ofNat ↦ 4313
+    [reduction] HMul.hMul ↦ 865
+    [reduction] Set ↦ 559
+    [reduction] Mul.mul ↦ 533
+  [reduction] unfolded reducible declarations (max: 893, num: 4):
+    [reduction] unitaryGroup ↦ 893
+    [reduction] UG ↦ 684
+    [reduction] Submonoid.toSubsemigroup ↦ 572
+    [reduction] outParam ↦ 524
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+src/Development/AbelianVarietyTheory/BlockTheory/TwistedDiscreteSeries/MinorOrderedEntries.lean:195:37: warning: `Pi.monoidHom` has been deprecated: Use `MonoidHom.pi` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.monoidHom` to `MonoidHom.pi x`).
+[diag] Diagnostics
+  [reduction] unfolded reducible declarations (max: 651, num: 1):
+    [reduction] outParam ↦ 651
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+[diag] Diagnostics
+  [reduction] unfolded reducible declarations (max: 1312, num: 1):
+    [reduction] outParam ↦ 1312
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+[diag] Diagnostics
+  [kernel] unfolded declarations (max: 664, num: 1):
+    [kernel] List.rec ↦ 664
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+[diag] Diagnostics
+  [kernel] unfolded declarations (max: 996, num: 5):
+    [kernel] Int.casesOn ↦ 996
+    [kernel] Int.rec ↦ 990
+    [kernel] Bool.casesOn ↦ 732
+    [kernel] Decidable.casesOn ↦ 687
+    [kernel] Decidable.rec ↦ 606
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+[diag] Diagnostics
+  [reduction] unfolded reducible declarations (max: 650, num: 1):
+    [reduction] outParam ↦ 650
+  [type_class] used instances (max: 732, num: 1):
+    [type_class] Lean.Grind.CommRing.OfCommSemiring.instOfNatQ ↦ 732
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+@@ wall=11.86s rc=0 maxrss=6604MiB

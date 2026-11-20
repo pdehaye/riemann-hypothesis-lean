@@ -1,0 +1,54 @@
+import took 4.05s
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_nlinarith_1._boxed took 103ms
+tactic execution of Mathlib.Tactic.nlinarith took 336ms
+tactic execution of Lean.Parser.Tactic.tacticSeq1Indented took 81.2ms
+simp took 51.9ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 58.3ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 59ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 51ms
+simp took 53.5ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 61.6ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 59.3ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 66ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 60.4ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 64.6ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_nlinarith_1._boxed took 1.23s
+simp took 53.2ms
+tactic execution of Mathlib.Tactic.linarith took 57.5ms
+tactic execution of Mathlib.Tactic.linarith took 50.1ms
+interpretation of Lean.Elab.Tactic._aux_Mathlib_Tactic_Widget_Calc___elabRules_Lean_calcTactic_1._boxed took 127ms
+share common exprs took 77ms
+type checking took 53.6ms
+type checking took 108ms
+elaboration took 373ms
+compilation (LCNF base) took 68.5ms
+type checking took 19.5s
+cumulative profiling times:
+	attribute application 0.253ms
+	blocked (unaccounted) 6.66s
+	compilation (IR) 3.83ms
+	compilation (LCNF base) 70ms
+	compilation (LCNF impure) 28.6ms
+	compilation (LCNF mono) 50.4ms
+	congr simp thm 87.2ms
+	elaboration 511ms
+	fix level params 3.74ms
+	import 4.05s
+	initialization 34.7ms
+	instantiate metavars 18.5ms
+	interpretation 2.96s
+	let-to-have transformation 7.15ms
+	linting 87.9ms
+	module linting 0.0209ms
+	norm_num 553ms
+	overlappingInstancesLinter 8.38ms
+	parsing 26.8ms
+	process pre-definitions 95.1ms
+	ring 124ms
+	share common exprs 104ms
+	simp 1.4s
+	tactic execution 1.71s
+	tacticAnalysis 76ms
+	type checking 20.2s
+	typeclass inference 2.88s
+@@ wall=32.52s rc=0 maxrss=8694MiB

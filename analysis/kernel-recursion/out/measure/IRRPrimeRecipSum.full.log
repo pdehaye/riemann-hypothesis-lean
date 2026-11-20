@@ -1,0 +1,57 @@
+import took 3.99s
+src/Formalism/PadicSubsetSums/StableGradedCounts/IRRPrimeRecipSum.lean:23:4: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_nlinarith_1._boxed took 106ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_nlinarith_1._boxed took 124ms
+type checking took 64.6ms
+type checking took 913ms
+type checking took 23.3s
+tactic execution of Mathlib.Tactic.linarith took 58.6ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_nlinarith_1._boxed took 195ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_nlinarith_1._boxed took 288ms
+type checking took 54.8ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 77ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 68.4ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 82.5ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 93.6ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 94ms
+simp took 54.1ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 79.9ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 81.6ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_nlinarith_1._boxed took 1.59s
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 99.3ms
+cumulative profiling times:
+	attribute application 0.312ms
+	blocked (unaccounted) 3.68s
+	compilation (IR) 0.509ms
+	compilation (LCNF base) 6.44ms
+	compilation (LCNF impure) 2.15ms
+	compilation (LCNF mono) 3.1ms
+	congr simp thm 55.4ms
+	dsimp 1.16ms
+	elaboration 125ms
+	fix level params 4.2ms
+	import 3.99s
+	initialization 39.4ms
+	instantiate metavars 15.9ms
+	interpretation 4.52s
+	let-to-have transformation 0.349ms
+	linting 86.6ms
+	module linting 0.0302ms
+	norm_num 1.41s
+	overlappingInstancesLinter 13.2ms
+	parsing 22.8ms
+	process pre-definitions 65.5ms
+	ring 246ms
+	share common exprs 90.7ms
+	simp 948ms
+	tactic execution 1.3s
+	tacticAnalysis 84.3ms
+	type checking 24.7s
+	typeclass inference 2.54s
+@@ wall=31.21s rc=0 maxrss=9095MiB

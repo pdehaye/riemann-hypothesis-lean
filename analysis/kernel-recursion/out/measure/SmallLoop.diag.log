@@ -1,0 +1,40 @@
+[diag] Diagnostics
+  [kernel] unfolded declarations (max: 655352, num: 36):
+    [kernel] Nat.rec ↦ 655352
+    [kernel] Nat.casesOn ↦ 524281
+    [kernel] HPow.hPow ↦ 524280
+    [kernel] Pow.pow ↦ 524280
+    [kernel] force ↦ 393210
+    [kernel] force.match_1 ↦ 393210
+    [kernel] Bool.casesOn ↦ 286642
+    [kernel] Bool.rec ↦ 274393
+    [kernel] Add.add ↦ 274386
+    [kernel] HAdd.hAdd ↦ 274386
+    [kernel] NPow.npow ↦ 262140
+    [kernel] NatPow.pow ↦ 262140
+    [kernel] HMul.hMul ↦ 155642
+    [kernel] Mul.mul ↦ 155642
+    [kernel] Decidable.casesOn ↦ 155571
+    [kernel] Decidable.rec ↦ 155571
+    [kernel] ite ↦ 143320
+    [kernel] loop._f ↦ 131071
+    [kernel] loop.match_1 ↦ 131071
+    [kernel] instDecidableEqNat ↦ 131070
+    [kernel] and ↦ 131070
+    [kernel] Div.div ↦ 131070
+    [kernel] HDiv.hDiv ↦ 131070
+    [kernel] HSub.hSub ↦ 131070
+    [kernel] Nat.blt ↦ 131070
+    [kernel] Nat.decEq ↦ 131070
+    [kernel] Nat.instDecidableCoprime ↦ 131070
+    [kernel] Sub.sub ↦ 131070
+    [kernel] Bool.and.match_1 ↦ 131070
+    [kernel] Nat.decEq.match_1 ↦ 131070
+    [kernel] tst ↦ 131070
+    [kernel] instDecidableEqBool ↦ 12251
+    [kernel] Bool.decEq ↦ 12251
+    [kernel] Bool.decEq.match_1 ↦ 12251
+    [kernel] dite ↦ 12250
+    [kernel] Nat.decLe ↦ 12250
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+@@ wall=44.68s rc=0 maxrss=10855MiB

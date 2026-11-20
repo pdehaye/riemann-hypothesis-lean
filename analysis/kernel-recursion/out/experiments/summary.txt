@@ -1,0 +1,12 @@
+force k=2000 stack=default: type checking took 405ms  @@ wall=5.46s rc=0 maxrss=6607MiB
+force k=2000 stack=big: type checking took 496ms  @@ wall=5.43s rc=0 maxrss=6608MiB
+noforce k=2000 stack=default: type checking took 270ms  @@ wall=4.99s rc=0 maxrss=6626MiB
+noforce k=2000 stack=big: type checking took 363ms  @@ wall=5.28s rc=0 maxrss=6626MiB
+force k=8000 stack=default: type checking took 2.28s  @@ wall=7.28s rc=0 maxrss=6840MiB
+force k=8000 stack=big: type checking took 2.24s  @@ wall=7.45s rc=0 maxrss=6842MiB
+noforce k=8000 stack=default: type checking took 1.84s  @@ wall=6.87s rc=0 maxrss=6763MiB
+noforce k=8000 stack=big: type checking took 1.91s  @@ wall=7.00s rc=0 maxrss=6763MiB
+force k=32000 stack=default: type checking took 8.59s  @@ wall=13.67s rc=0 maxrss=7631MiB
+force k=32000 stack=big: type checking took 8.69s  @@ wall=13.65s rc=0 maxrss=7628MiB
+noforce k=32000 stack=default: type checking took 13.2s  @@ wall=18.04s rc=0 maxrss=7323MiB
+noforce k=32000 stack=big: type checking took 13.4s  @@ wall=18.29s rc=0 maxrss=7325MiB
