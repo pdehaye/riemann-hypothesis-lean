@@ -153,6 +153,49 @@ Conclusions so far:
   3. The `maxRecDepth` files on very large import chains (`IwasawaDecomposition/*`, `E8ActionRelativelyAmple`, 1k–15k modules).
 - Another possibility: `--tstack` is not needed at all with this toolchain. The author may have added it under an earlier Lean version, or for a step that was later rewritten.
 
+## Interface vs body census ("kinematic" vs "dynamic" use of definitions)
+
+Tool: `DefCensus.lean`, summarised by `census_report.py`; output in `out/census/` (`summary.md`, CSVs).
+
+**What it measures.** For every project theorem it re-checks the proof in the kernel with unfold diagnostics on. Auxiliary lemmas, such as the one holding a `decide +kernel` proof, and private names are merged into their user-level owner. For each project definition the theorem mentions, it then records one of three outcomes:
+- **interface only**: mentioned but never opened;
+- **kernel**: the kernel had to unfold the body;
+- **eqn**: used through an equation lemma (`d.eq_def`, `d.eq_N`).
+
+Each body use is tagged by where the definition lives relative to the theorem: same module, same directory, or remote.
+
+Definitions are classified by what they return:
+- `type`: returns a `Sort`;
+- `pred`: returns `Prop`;
+- `inst`: instance, or returns a class;
+- `value`: anything else.
+
+An `-abbrev` suffix marks reducible definitions. Body use of a `type` alias usually just identifies the carrier of a structure (kinematic). Body use of a `value` or `pred` means the proof relied on what the definition computes or says (dynamic).
+
+**Scope.** 11,624 theorems from the ≈ 800 project modules built so far (≈ 5% of the tree, not the main theorem's full cone). Runtime: 283 s, peak 12.5 GB.
+
+| definition kind | interface edges | body edges | of which remote | theorems with remote body use |
+|---|---:|---:|---:|---:|
+| value | 10,419 | 10,167 | 3,932 | 1,848 |
+| type-abbrev | 413 | 5,936 | 2,307 | 1,100 |
+| pred | 2,270 | 2,342 | 1,678 | 970 |
+| inst | 1,675 | 1,730 | 472 | 141 |
+| value-abbrev | 1,050 | 863 | 251 | 215 |
+| type | 1,190 | 230 | 62 | 41 |
+
+Findings:
+- **Body use is the norm, not the exception.** Overall, 55.6% of theorem→definition edges open the body, and 57.6% of theorems open at least one project definition. Even excluding `type` aliases and instances, value/pred definitions are opened about as often as they are used through their interface (≈ 12.5k body vs 12.7k interface edges).
+- **Proofs work by definitional unfolding, not by equation lemmas.** Only 487 body edges go through `eq_def`/`eq_N`, against 20,869 kernel unfoldings. `unfold`, `show`, `change` and `rfl` on non-recursive definitions leave a definitional cast that the kernel resolves by unfolding. This matches the static counts (112k `unfold`, 52k `change`, 43k `:= rfl`).
+- **Dynamic use concentrates at the statement layer.** Of the 5,878 *remote* body uses of value/pred definitions, **3,292 (56%) open definitions that live in `*Statement*` modules.** The project defines its notions where the intermediate theorems are stated, and proofs elsewhere work with those definitions by unfolding them rather than through a lemma API. The most-opened examples are `Formalism.UG.bc`, `Formalism.HermitianLatticesTheory.locS`/`realize`/`gmap`, `Formalism.HN.zl`/`IsLat`, `Formalism.F.rk` and `Formalism.TwoAdicCyclotomicDecomposition.IsLayer`.
+- **Frobenius-named definitions:**
+  - The period-ring Frobenii (`Reformulated.AutPerF.{Ainf,Acris,Bcris}.frob`) are opened mostly *locally*: 2–3 remote body uses each.
+  - `Formalism.FrobeniusOrbits` is opened remotely, but almost entirely through its type aliases `G0`, `HGrp`, `GG` (178 / 91 / 34 remote uses). Its value-level definitions are opened remotely much less: `c0` 23, `hostE` 17, `HostHyp` 12.
+  - This census cannot tell which of these uses encode the *arithmetic* role of Frobenius, as opposed to bookkeeping.
+
+Caveats:
+- The kernel's lazy unfolding heuristics sometimes unfold a definition that a smarter check would avoid, so "kernel" edges are an upper bound on what is logically needed.
+- Unfolding of non-project (Mathlib/core) definitions is recorded separately in `out/census/census_external.csv`.
+
 ## Reproducing
 
 ```bash
@@ -162,6 +205,9 @@ python3 -I analysis/kernel-recursion/static_scan.py src analysis/kernel-recursio
 lake exe cache get
 lake build Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ChebyshevPrimeBounds.SmallLoop   # etc.
 analysis/kernel-recursion/measure.sh analysis/kernel-recursion/out/measure <Module>...
+# interface-vs-body census of built modules (call lean directly; `lake env` adds minutes of overhead)
+LEAN_PATH=$(lake env printenv LEAN_PATH) lean --run analysis/kernel-recursion/DefCensus.lean OUTDIR <Module>...
+python3 -I analysis/kernel-recursion/census_report.py OUTDIR > OUTDIR/summary.md
 # environment scan of built modules
 lake env lean --tstack=400000 --run analysis/kernel-recursion/RecursionScan.lean out.csv <Prefix,...> <Module>...
 ```
