@@ -1,0 +1,40 @@
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/FgZ1T.lean:103:20: warning: Variable name `x` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _x
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/FgZ1T.lean:125:18: warning: Variable name `x` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _x
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/FgZ1T.lean:165:26: warning: Variable name `x` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _x
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/FgZ1T.lean:470:45: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/FgZ1T.lean:470:62: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/FgZ1T.lean:281:28: warning: `Submodule.module._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/FgZ1T.lean:6:8: warning: Overlapping instance parameters in `UpperTheory.Reformulated.B.Gub2.fg_Z1T`:
+
+⚠️ `[ContinuousAdd V]` and `[IsTopologicalAddGroup V]` each imply `[ContinuousAdd V]`.
+💡️ Of these, `[ContinuousAdd V]` and `[IsTopologicalAddGroup V]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+@@ wall=5.92s rc=0 maxrss=6247MiB

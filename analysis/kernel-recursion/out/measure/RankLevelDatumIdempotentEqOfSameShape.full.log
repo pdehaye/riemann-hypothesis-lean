@@ -1,0 +1,31 @@
+import took 3.5s
+src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/RankLevelDatumIdempotentEqOfSameShape.lean:16:23: warning: `LinearEquiv.ofLinear` has been deprecated: Use `LinearEquiv.ofLinearMap` instead
+simp took 67.2ms
+tactic execution of Lean.Parser.Tactic.omega took 51.4ms
+cumulative profiling times:
+	attribute application 0.167ms
+	compilation (IR) 0.15ms
+	compilation (LCNF base) 1.1ms
+	compilation (LCNF impure) 0.587ms
+	compilation (LCNF mono) 1.6ms
+	congr simp thm 4.49ms
+	elaboration 57.8ms
+	fix level params 0.73ms
+	import 3.5s
+	initialization 39.1ms
+	instantiate metavars 2.55ms
+	interpretation 420ms
+	let-to-have transformation 0.16ms
+	linting 20.2ms
+	module linting 0.00208ms
+	norm_num 0.393ms
+	overlappingInstancesLinter 10.1ms
+	parsing 7.8ms
+	process pre-definitions 12ms
+	share common exprs 5.76ms
+	simp 148ms
+	tactic execution 331ms
+	tacticAnalysis 29.3ms
+	type checking 122ms
+	typeclass inference 731ms
+@@ wall=5.69s rc=0 maxrss=6576MiB

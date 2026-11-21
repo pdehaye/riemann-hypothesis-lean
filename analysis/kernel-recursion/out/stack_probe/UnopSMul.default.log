@@ -1,0 +1,19 @@
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/UnopSMul.lean:198:15: warning: Variable name `x` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _x
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/UnopSMul.lean:431:17: warning: Variable name `x` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _x
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/UnopSMul.lean:566:17: warning: Variable name `x` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _x
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+@@ wall=5.91s rc=0 maxrss=6242MiB

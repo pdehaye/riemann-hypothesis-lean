@@ -1,0 +1,39 @@
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/BlockHomomorphism.lean:39:24: warning: Variable name `x` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _x
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/BlockHomomorphism.lean:53:24: warning: Variable name `x` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _x
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/BlockHomomorphism.lean:942:22: warning: Variable name `x` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _x
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/BlockHomomorphism.lean:960:21: warning: Variable name `x` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _x
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/BlockHomomorphism.lean:1077:23: warning: Variable name `x` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _x
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/BlockHomomorphism.lean:1167:7: warning: Variable name `h` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _h
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/BlockHomomorphism.lean:1204:15: warning: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/BlockHomomorphism.lean:1208:15: warning: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+@@ wall=5.61s rc=0 maxrss=6243MiB

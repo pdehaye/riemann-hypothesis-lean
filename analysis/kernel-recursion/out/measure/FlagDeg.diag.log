@@ -1,0 +1,17 @@
+[diag] Diagnostics
+  [reduction] unfolded reducible declarations (max: 1846, num: 1):
+    [reduction] outParam ↦ 1846
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+src/Formalism/DegreeFormula/PointDegree/FlagDeg.lean:60:15: warning: This simp argument is unused:
+  smul_pow
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [smul_eq_C_mul, mul_pow, Finset.prod_mul_distrib, map_pow, map_natCast,
+    Finsupp.coe_equivFunOnFinite_symm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+[diag] Diagnostics
+  [reduction] unfolded reducible declarations (max: 1336, num: 1):
+    [reduction] outParam ↦ 1336
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+@@ wall=6.03s rc=0 maxrss=6575MiB

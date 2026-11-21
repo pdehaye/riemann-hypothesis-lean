@@ -1,0 +1,59 @@
+import took 3.73s
+simp took 52.8ms
+typeclass inference of NonUnitalNonAssocSemiring took 78.7ms
+typeclass inference of Semiring took 64.5ms
+typeclass inference of MulHomClass took 83ms
+typeclass inference of AddMonoidWithOne took 95ms
+simp took 96.9ms
+simp took 143ms
+src/Development/AbelianVarietyTheory/BlockTheory/TwistedDiscreteSeries/MinorOrderedEntries.lean:79:0: warning: automatically included section variable(s) unused in theorem `GlobalTheory.IndefiniteRowSideFullHecke.MinorOrderedEntries.weylSub_le`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+simp took 78.6ms
+simp took 82ms
+tactic execution of Lean.Parser.Tactic.rewriteSeq took 51.2ms
+typeclass inference of NonUnitalNonAssocSemiring took 104ms
+typeclass inference of NonUnitalNonAssocSemiring took 99.3ms
+typeclass inference of Semiring took 58.6ms
+typeclass inference of Semiring took 60.4ms
+typeclass inference of MulHomClass took 86.5ms
+src/Development/AbelianVarietyTheory/BlockTheory/TwistedDiscreteSeries/MinorOrderedEntries.lean:195:37: warning: `Pi.monoidHom` has been deprecated: Use `MonoidHom.pi` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.monoidHom` to `MonoidHom.pi x`).
+elaboration took 79ms
+simp took 80.8ms
+simp took 101ms
+simp took 75.8ms
+cumulative profiling times:
+	attribute application 0.908ms
+	blocked (unaccounted) 483ms
+	compilation (IR) 3.18ms
+	compilation (LCNF base) 78.6ms
+	compilation (LCNF impure) 17.1ms
+	compilation (LCNF mono) 39.2ms
+	congr simp thm 19.6ms
+	dsimp 0.234ms
+	elaboration 726ms
+	fix level params 3.04ms
+	import 3.73s
+	initialization 31.3ms
+	instantiate metavars 6.91ms
+	interpretation 770ms
+	let-to-have transformation 3.18ms
+	linting 67ms
+	module linting 0.00193ms
+	norm_num 31.1ms
+	overlappingInstancesLinter 34ms
+	parsing 35.6ms
+	process pre-definitions 114ms
+	ring 36.3ms
+	share common exprs 23.7ms
+	simp 1.14s
+	tactic execution 601ms
+	tacticAnalysis 91.9ms
+	type checking 646ms
+	typeclass inference 3.12s
+@@ wall=10.27s rc=0 maxrss=6609MiB

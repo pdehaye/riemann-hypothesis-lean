@@ -1,0 +1,35 @@
+[diag] Diagnostics
+  [kernel] unfolded declarations (max: 1802, num: 3):
+    [kernel] List.rec ↦ 1802
+    [kernel] List.casesOn ↦ 930
+    [kernel] Nat.rec ↦ 586
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+[diag] Diagnostics
+  [reduction] unfolded reducible declarations (max: 694, num: 2):
+    [reduction] inferInstance ↦ 694
+    [reduction] Nat.cast ↦ 514
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+[theorem] PI.PC.psiUpperBound_of_lt_thirty_mul_six_pow
+  [size] 18587
+  [occs] HMul.hMul ↦ 592
+[diag] Diagnostics
+  [reduction] unfolded declarations (max: 510, num: 1):
+    [reduction] Add.add ↦ 510
+  [reduction] unfolded reducible declarations (max: 1856, num: 3):
+    [reduction] inferInstance ↦ 1856
+    [reduction] outParam ↦ 1078
+    [reduction] Nat.cast ↦ 1015
+  [def_eq] heuristic for solving `f a =?= f b` (max: 1531, num: 5):
+    [def_eq] instOfNatAtLeastTwo ↦ 1531
+    [def_eq] instHAdd ↦ 1167
+    [def_eq] instHMul ↦ 995
+    [def_eq] LE.le ↦ 650
+    [def_eq] instHDiv ↦ 570
+  [kernel] unfolded declarations (max: 997, num: 5):
+    [kernel] HMul.hMul ↦ 997
+    [kernel] Mul.mul ↦ 997
+    [kernel] Add.add ↦ 595
+    [kernel] HAdd.hAdd ↦ 595
+    [kernel] OfNat.ofNat ↦ 538
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+@@ wall=8.98s rc=0 maxrss=6602MiB

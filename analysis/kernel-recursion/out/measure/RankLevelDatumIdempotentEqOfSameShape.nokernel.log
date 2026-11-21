@@ -1,0 +1,2 @@
+src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/RankLevelDatumIdempotentEqOfSameShape.lean:16:23: warning: `LinearEquiv.ofLinear` has been deprecated: Use `LinearEquiv.ofLinearMap` instead
+@@ wall=5.47s rc=0 maxrss=6567MiB

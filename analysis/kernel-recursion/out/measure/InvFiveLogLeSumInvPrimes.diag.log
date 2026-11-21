@@ -1,0 +1,157 @@
+[diag] Diagnostics
+  [reduction] unfolded reducible declarations (max: 542, num: 1):
+    [reduction] Nat.cast ↦ 542
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+[diag] Diagnostics
+  [reduction] unfolded declarations (max: 706, num: 3):
+    [reduction] LE.le ↦ 706
+    [reduction] Add.add ↦ 622
+    [reduction] HAdd.hAdd ↦ 616
+  [reduction] unfolded reducible declarations (max: 2003, num: 3):
+    [reduction] Nat.cast ↦ 2003
+    [reduction] inferInstance ↦ 1512
+    [reduction] outParam ↦ 578
+  [def_eq] heuristic for solving `f a =?= f b` (max: 1009, num: 1):
+    [def_eq] LE.le ↦ 1009
+  [kernel] unfolded declarations (max: 916, num: 4):
+    [kernel] List.rec ↦ 916
+    [kernel] Int.casesOn ↦ 595
+    [kernel] List.casesOn ↦ 577
+    [kernel] Int.rec ↦ 529
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+[diag] Diagnostics
+  [kernel] unfolded declarations (max: 771, num: 3):
+    [kernel] Int.casesOn ↦ 771
+    [kernel] List.rec ↦ 693
+    [kernel] Int.rec ↦ 681
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+[theorem] GlobalTheory.PrimeRecip.inv_five_log_le_sum_inv_primes_of_large
+  [size] 19851
+  [occs] HMul.hMul ↦ 603
+  [occs] HAdd.hAdd ↦ 590
+[diag] Diagnostics
+  [reduction] unfolded declarations (max: 2269, num: 13):
+    [reduction] Add.add ↦ 2269
+    [reduction] HAdd.hAdd ↦ 2262
+    [reduction] LE.le ↦ 2061
+    [reduction] NatCast.natCast ↦ 1223
+    [reduction] Mul.mul ↦ 974
+    [reduction] HMul.hMul ↦ 965
+    [reduction] OfNat.ofNat ↦ 922
+    [reduction] Nat.rec ↦ 820
+    [reduction] Zero.zero ↦ 620
+    [reduction] HSub.hSub ↦ 610
+    [reduction] Sub.sub ↦ 608
+    [reduction] Int.rec ↦ 577
+    [reduction] Int.le ↦ 506
+  [reduction] unfolded reducible declarations (max: 22036, num: 8):
+    [reduction] Nat.cast ↦ 22036
+    [reduction] FunLike ↦ 7489
+    [reduction] inferInstance ↦ 3122
+    [reduction] outParam ↦ 2939
+    [reduction] Nat.casesOn ↦ 2137
+    [reduction] Function.swap ↦ 1079
+    [reduction] Int.casesOn ↦ 817
+    [reduction] Lean.Omega.Coeffs.isZero ↦ 630
+  [type_class] used instances (max: 1626, num: 3):
+    [type_class] Lean.Grind.CommRing.OfCommSemiring.instNatCastQ ↦ 1626
+    [type_class] Pi.addMonoidWithOne ↦ 886
+    [type_class] instSMulOfMul ↦ 836
+  [def_eq] heuristic for solving `f a =?= f b` (max: 4768, num: 8):
+    [def_eq] Nat.cast ↦ 4768
+    [def_eq] LE.le ↦ 3187
+    [def_eq] instHAdd ↦ 1526
+    [def_eq] Zero.toOfNat0 ↦ 1518
+    [def_eq] OfNat.ofNat ↦ 1415
+    [def_eq] instMulZeroClassOfSemiring ↦ 1287
+    [def_eq] MulZeroClass.toZero ↦ 1287
+    [def_eq] instOfNatAtLeastTwo ↦ 680
+  [kernel] unfolded declarations (max: 7801, num: 33):
+    [kernel] List.rec ↦ 7801
+    [kernel] List.casesOn ↦ 4631
+    [kernel] Int.casesOn ↦ 3570
+    [kernel] Int.rec ↦ 3201
+    [kernel] Add.add ↦ 2189
+    [kernel] HAdd.hAdd ↦ 2189
+    [kernel] instDecidableEqList.match_1 ↦ 2086
+    [kernel] List.map._f ↦ 2086
+    [kernel] OfNat.ofNat ↦ 1873
+    [kernel] HMul.hMul ↦ 1502
+    [kernel] Mul.mul ↦ 1462
+    [kernel] Nat.casesOn ↦ 1384
+    [kernel] Int.add.match_1 ↦ 1381
+    [kernel] HSub.hSub ↦ 1303
+    [kernel] Sub.sub ↦ 1303
+    [kernel] Nat.rec ↦ 1082
+    [kernel] Option.rec ↦ 1014
+    [kernel] Int.negOfNat.match_1 ↦ 1006
+    [kernel] Option.casesOn ↦ 972
+    [kernel] Int.add ↦ 884
+    [kernel] List.zipWithAll._f ↦ 825
+    [kernel] List.zipWithAll.match_1 ↦ 825
+    [kernel] List.brecOn ↦ 806
+    [kernel] List.getLast?.match_1 ↦ 770
+    [kernel] Int.neg.match_1 ↦ 752
+    [kernel] List.brecOn.go ↦ 715
+    [kernel] Neg.neg ↦ 683
+    [kernel] Int.negOfNat ↦ 674
+    [kernel] Option.getD.match_1 ↦ 644
+    [kernel] Decidable.casesOn ↦ 556
+    [kernel] Decidable.rec ↦ 556
+    [kernel] Int.neg ↦ 555
+    [kernel] List.foldr._f ↦ 512
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+[diag] Diagnostics
+  [type_class] used instances (max: 899, num: 2):
+    [type_class] instOfNatNat ↦ 899
+    [type_class] Lean.Grind.CommRing.OfCommSemiring.instOfNatQ ↦ 772
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+[diag] Diagnostics
+  [kernel] unfolded declarations (max: 722228, num: 45):
+    [kernel] Bool.casesOn ↦ 722228
+    [kernel] Bool.rec ↦ 602668
+    [kernel] Decidable.casesOn ↦ 374363
+    [kernel] Decidable.rec ↦ 306362
+    [kernel] cond.match_1 ↦ 295519
+    [kernel] decide ↦ 254802
+    [kernel] Nat.rec ↦ 230036
+    [kernel] or ↦ 228280
+    [kernel] and ↦ 120346
+    [kernel] Bool.and.match_1 ↦ 120346
+    [kernel] instDecidableEqBool ↦ 119562
+    [kernel] Bool.decEq ↦ 119562
+    [kernel] Bool.decEq.match_1 ↦ 119562
+    [kernel] dite ↦ 119561
+    [kernel] Nat.decLe ↦ 119561
+    [kernel] Nat.decLt ↦ 116012
+    [kernel] Nat.casesOn ↦ 115018
+    [kernel] noSmallDiv._f ↦ 115018
+    [kernel] noSmallDiv.match_1 ↦ 115018
+    [kernel] bne ↦ 67239
+    [kernel] instDecidableEqNat ↦ 67239
+    [kernel] BEq.beq ↦ 67239
+    [kernel] not ↦ 67239
+    [kernel] HMod.hMod ↦ 67239
+    [kernel] Mod.mod ↦ 67239
+    [kernel] Nat.decEq ↦ 67239
+    [kernel] Nat.decEq.match_1 ↦ 67239
+    [kernel] List.rec ↦ 6187
+    [kernel] Add.add ↦ 1886
+    [kernel] HAdd.hAdd ↦ 1886
+    [kernel] List.casesOn ↦ 1782
+    [kernel] sortedB._sparseCasesOn_1 ↦ 1756
+    [kernel] HMul.hMul ↦ 1056
+    [kernel] Mul.mul ↦ 1056
+    [kernel] OfNat.ofNat ↦ 908
+    [kernel] instOfNatNat ↦ 907
+    [kernel] List.all._f ↦ 890
+    [kernel] List.any.match_1 ↦ 890
+    [kernel] instDecidableEqList.match_1 ↦ 879
+    [kernel] List.length._f ↦ 879
+    [kernel] Nat.brecOn ↦ 878
+    [kernel] noSmallDiv ↦ 878
+    [kernel] Nat.brecOn.go ↦ 878
+    [kernel] sortedB._f ↦ 878
+    [kernel] sortedB.match_1 ↦ 878
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+@@ wall=35.06s rc=0 maxrss=8690MiB

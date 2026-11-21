@@ -1,0 +1,1167 @@
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:427:22: warning: Variable name `x` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _x
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:776:43: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:776:64: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:792:43: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:792:64: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:824:43: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:824:64: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:875:51: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:875:72: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:888:49: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:888:70: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:894:51: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:894:72: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:919:51: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:919:72: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:968:47: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:968:68: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:981:45: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:981:66: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:987:47: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:987:68: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1012:47: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1012:68: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1042:47: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1042:68: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1057:45: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1057:66: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1063:47: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1063:68: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1088:47: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1088:68: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1121:47: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1121:68: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1136:45: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1136:66: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1142:47: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1142:68: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1167:47: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1167:68: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1192:47: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1192:68: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1213:14: warning: Variable name `x` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _x
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1223:47: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1223:68: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1236:45: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1236:66: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1242:47: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1242:68: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1267:47: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1267:68: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1306:49: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1306:70: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1319:47: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1319:68: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1325:49: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1325:70: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1350:49: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1350:70: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1380:49: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1380:70: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1395:47: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1395:68: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1401:49: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1401:70: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1426:49: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1426:70: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1459:49: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1459:70: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1474:47: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1474:68: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1480:49: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1480:70: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1505:49: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1505:70: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1530:49: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1530:70: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1561:47: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1561:68: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1574:45: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1574:66: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1580:47: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1580:68: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1605:47: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1605:68: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1644:49: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1644:70: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1657:47: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1657:68: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1663:49: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1663:70: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1688:49: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1688:70: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1718:49: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1718:70: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1733:47: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1733:68: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1739:49: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1739:70: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1764:49: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1764:70: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1797:49: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1797:70: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1812:47: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1812:68: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1818:49: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1818:70: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1843:49: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1843:70: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1868:49: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:1868:70: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:2384:28: warning: Variable name `x` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _x
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:2413:30: warning: Variable name `x` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _x
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:2479:49: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:2479:70: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:2509:45: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:2509:66: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:2530:43: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:2530:64: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:2545:46: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:2545:67: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:2559:44: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:2559:65: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:2578:48: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:2578:69: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:2593:44: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:2593:65: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:2627:41: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:2627:62: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:2630:42: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:2630:64: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:2640:51: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:2640:72: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:2646:49: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:2646:70: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:2655:49: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:2655:70: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:2662:49: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:2662:70: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:2728:49: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:2728:70: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:2746:50: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:2746:72: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:2766:45: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:2766:66: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:2785:41: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:2785:62: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:2788:42: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:2788:64: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:2822:43: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:2822:64: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:2825:44: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:2825:66: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:2909:16: warning: Variable name `x` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _x
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:2920:48: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:2920:69: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:3477:2: warning: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:3149:43: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:3149:64: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:3167:43: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:3167:64: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:3191:56: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:3191:77: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:3210:58: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:3210:79: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:3229:58: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:3229:79: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:3245:54: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:3245:75: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:3264:94: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:3271:59: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:3276:67: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:3281:73: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:3286:74: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:3287:49: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:3294:76: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:3297:49: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:3302:49: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:3310:94: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:3316:102: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:3323:43: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:3329:74: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:3330:49: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:3338:49: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:3342:49: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:3347:49: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:3357:29: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:3370:55: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:3370:76: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:3389:57: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:3389:78: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:3408:57: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:3408:78: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:3492:44: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:3497:49: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:3492:44: warning: Unused tactic linter: `infer_instance` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SelectionLemmas.lean:3497:49: warning: Unused tactic linter: `infer_instance` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+@@ wall=8.13s rc=0 maxrss=6318MiB

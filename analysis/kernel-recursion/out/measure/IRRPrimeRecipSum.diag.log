@@ -1,0 +1,154 @@
+src/Formalism/PadicSubsetSums/StableGradedCounts/IRRPrimeRecipSum.lean:23:4: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+[diag] Diagnostics
+  [reduction] unfolded reducible declarations (max: 1352, num: 1):
+    [reduction] Nat.cast ↦ 1352
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+[diag] Diagnostics
+  [reduction] unfolded reducible declarations (max: 546, num: 1):
+    [reduction] Nat.cast ↦ 546
+  [kernel] unfolded declarations (max: 628, num: 1):
+    [kernel] List.rec ↦ 628
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+[diag] Diagnostics
+  [kernel] unfolded declarations (max: 3590, num: 16):
+    [kernel] Bool.rec ↦ 3590
+    [kernel] Bool.casesOn ↦ 3537
+    [kernel] and ↦ 2823
+    [kernel] Bool.and.match_1 ↦ 2823
+    [kernel] Add.add ↦ 2113
+    [kernel] HAdd.hAdd ↦ 2113
+    [kernel] Nat.rec ↦ 1551
+    [kernel] Nat.casesOn ↦ 1423
+    [kernel] bsum.match_1 ↦ 1409
+    [kernel] bsum._f ↦ 1401
+    [kernel] blt ↦ 1261
+    [kernel] cond.match_1 ↦ 712
+    [kernel] cond ↦ 704
+    [kernel] term ↦ 704
+    [kernel] test ↦ 704
+    [kernel] OfNat.ofNat ↦ 633
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+[diag] Diagnostics
+  [kernel] unfolded declarations (max: 31566, num: 20):
+    [kernel] Bool.rec ↦ 31566
+    [kernel] Bool.casesOn ↦ 31399
+    [kernel] and ↦ 25106
+    [kernel] Bool.and.match_1 ↦ 25106
+    [kernel] Add.add ↦ 18817
+    [kernel] HAdd.hAdd ↦ 18817
+    [kernel] Nat.rec ↦ 12962
+    [kernel] Nat.casesOn ↦ 12577
+    [kernel] bsum.match_1 ↦ 12545
+    [kernel] bsum._f ↦ 12526
+    [kernel] blt ↦ 12111
+    [kernel] cond.match_1 ↦ 6291
+    [kernel] cond ↦ 6272
+    [kernel] term ↦ 6272
+    [kernel] test ↦ 6272
+    [kernel] OfNat.ofNat ↦ 5632
+    [kernel] HMul.hMul ↦ 4099
+    [kernel] Mul.mul ↦ 4099
+    [kernel] Div.div ↦ 688
+    [kernel] HDiv.hDiv ↦ 688
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+[diag] Diagnostics
+  [kernel] unfolded declarations (max: 747992, num: 20):
+    [kernel] Bool.rec ↦ 747992
+    [kernel] Bool.casesOn ↦ 747587
+    [kernel] and ↦ 598048
+    [kernel] Bool.and.match_1 ↦ 598048
+    [kernel] Add.add ↦ 448513
+    [kernel] HAdd.hAdd ↦ 448513
+    [kernel] Nat.rec ↦ 300136
+    [kernel] Nat.casesOn ↦ 299151
+    [kernel] bsum.match_1 ↦ 299009
+    [kernel] bsum._f ↦ 298976
+    [kernel] blt ↦ 279200
+    [kernel] cond.match_1 ↦ 149537
+    [kernel] cond ↦ 149504
+    [kernel] term ↦ 149504
+    [kernel] test ↦ 149504
+    [kernel] OfNat.ofNat ↦ 138966
+    [kernel] HMul.hMul ↦ 93262
+    [kernel] Mul.mul ↦ 93262
+    [kernel] Div.div ↦ 10614
+    [kernel] HDiv.hDiv ↦ 10614
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+[diag] Diagnostics
+  [reduction] unfolded reducible declarations (max: 1133, num: 1):
+    [reduction] Nat.cast ↦ 1133
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+[diag] Diagnostics
+  [reduction] unfolded reducible declarations (max: 1010, num: 1):
+    [reduction] inferInstance ↦ 1010
+  [def_eq] heuristic for solving `f a =?= f b` (max: 885, num: 3):
+    [def_eq] instHAdd ↦ 885
+    [def_eq] instOfNatAtLeastTwo ↦ 705
+    [def_eq] LE.le ↦ 613
+  [kernel] unfolded declarations (max: 637, num: 2):
+    [kernel] HMul.hMul ↦ 637
+    [kernel] Mul.mul ↦ 637
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+[diag] Diagnostics
+  [reduction] unfolded declarations (max: 2001, num: 10):
+    [reduction] Add.add ↦ 2001
+    [reduction] HAdd.hAdd ↦ 1995
+    [reduction] Mul.mul ↦ 1386
+    [reduction] HMul.hMul ↦ 1339
+    [reduction] Nat.rec ↦ 1204
+    [reduction] OfNat.ofNat ↦ 1019
+    [reduction] LE.le ↦ 878
+    [reduction] Zero.zero ↦ 761
+    [reduction] NatCast.natCast ↦ 508
+    [reduction] Sub.sub ↦ 501
+  [reduction] unfolded reducible declarations (max: 14560, num: 7):
+    [reduction] Nat.cast ↦ 14560
+    [reduction] inferInstance ↦ 3043
+    [reduction] Nat.casesOn ↦ 3019
+    [reduction] FunLike ↦ 2859
+    [reduction] outParam ↦ 1499
+    [reduction] Function.swap ↦ 781
+    [reduction] Int.casesOn ↦ 533
+  [type_class] used instances (max: 652, num: 1):
+    [type_class] Lean.Grind.CommRing.OfCommSemiring.instNatCastQ ↦ 652
+  [def_eq] heuristic for solving `f a =?= f b` (max: 1844, num: 11):
+    [def_eq] LE.le ↦ 1844
+    [def_eq] Nat.cast ↦ 1714
+    [def_eq] instHAdd ↦ 1445
+    [def_eq] Zero.toOfNat0 ↦ 1209
+    [def_eq] OfNat.ofNat ↦ 1128
+    [def_eq] instMulZeroClassOfSemiring ↦ 903
+    [def_eq] MulZeroClass.toZero ↦ 903
+    [def_eq] instOfNatAtLeastTwo ↦ 845
+    [def_eq] instHMul ↦ 703
+    [def_eq] LT.lt ↦ 529
+    [def_eq] One.toOfNat1 ↦ 518
+  [kernel] unfolded declarations (max: 783, num: 4):
+    [kernel] HMul.hMul ↦ 783
+    [kernel] Mul.mul ↦ 781
+    [kernel] Add.add ↦ 568
+    [kernel] HAdd.hAdd ↦ 568
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+[diag] Diagnostics
+  [reduction] unfolded reducible declarations (max: 2288, num: 2):
+    [reduction] Nat.cast ↦ 2288
+    [reduction] outParam ↦ 624
+  [kernel] unfolded declarations (max: 1517, num: 10):
+    [kernel] List.rec ↦ 1517
+    [kernel] Int.casesOn ↦ 1388
+    [kernel] Int.rec ↦ 1227
+    [kernel] List.casesOn ↦ 966
+    [kernel] Add.add ↦ 883
+    [kernel] HAdd.hAdd ↦ 883
+    [kernel] OfNat.ofNat ↦ 671
+    [kernel] HSub.hSub ↦ 564
+    [kernel] Sub.sub ↦ 564
+    [kernel] Int.add.match_1 ↦ 526
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+@@ wall=38.01s rc=0 maxrss=9034MiB

@@ -1,0 +1,113 @@
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/HloweqTransfer.lean:166:13: warning: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/HloweqTransfer.lean:360:13: warning: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/HloweqTransfer.lean:681:2: warning: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/HloweqTransfer.lean:1297:11: warning: Variable name `hm` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hm
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/HloweqTransfer.lean:1687:11: warning: Variable name `h` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _h
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/HloweqTransfer.lean:2050:26: warning: Variable name `x` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _x
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/HloweqTransfer.lean:2149:22: warning: Variable name `x` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _x
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/HloweqTransfer.lean:2207:61: warning: Variable name `j` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _j
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/HloweqTransfer.lean:2207:85: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/HloweqTransfer.lean:2208:34: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/HloweqTransfer.lean:2208:59: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/HloweqTransfer.lean:2210:34: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/HloweqTransfer.lean:2210:59: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/HloweqTransfer.lean:2223:67: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/HloweqTransfer.lean:2223:91: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/HloweqTransfer.lean:2626:65: warning: Variable name `x` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _x
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/HloweqTransfer.lean:2792:67: warning: Variable name `x` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _x
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/HloweqTransfer.lean:2983:65: warning: Variable name `x` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _x
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/HloweqTransfer.lean:3149:67: warning: Variable name `x` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _x
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/HloweqTransfer.lean:3433:69: warning: Variable name `x` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _x
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+@@ wall=6.57s rc=0 maxrss=6281MiB

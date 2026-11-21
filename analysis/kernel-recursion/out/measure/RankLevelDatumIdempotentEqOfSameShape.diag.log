@@ -1,0 +1,23 @@
+src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/RankLevelDatumIdempotentEqOfSameShape.lean:16:23: warning: `LinearEquiv.ofLinear` has been deprecated: Use `LinearEquiv.ofLinearMap` instead
+[diag] Diagnostics
+  [reduction] unfolded reducible declarations (max: 2977, num: 3):
+    [reduction] Module.End ↦ 2977
+    [reduction] outParam ↦ 1144
+    [reduction] FunLike ↦ 616
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+[diag] Diagnostics
+  [reduction] unfolded reducible declarations (max: 663, num: 1):
+    [reduction] outParam ↦ 663
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+[diag] Diagnostics
+  [kernel] unfolded declarations (max: 1141, num: 3):
+    [kernel] List.rec ↦ 1141
+    [kernel] List.casesOn ↦ 759
+    [kernel] Int.casesOn ↦ 524
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+[diag] Diagnostics
+  [reduction] unfolded reducible declarations (max: 593, num: 2):
+    [reduction] Nat.casesOn ↦ 593
+    [reduction] Units.val ↦ 516
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+@@ wall=5.79s rc=0 maxrss=6575MiB

@@ -1,0 +1,274 @@
+src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:142:8: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:143:8: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:163:8: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:164:8: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:142:8: warning: Unused tactic linter: `(field_simp; done)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:143:8: warning: Unused tactic linter: `(
+  field_simp
+  ring)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:163:8: warning: Unused tactic linter: `(field_simp; done)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:164:8: warning: Unused tactic linter: `(
+  field_simp
+  ring)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:286:10: warning: This simp argument is unused:
+  Finsupp.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:288:29: warning: This simp argument is unused:
+  Finsupp.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:290:10: warning: This simp argument is unused:
+  Finsupp.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:292:29: warning: This simp argument is unused:
+  Finsupp.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:306:8: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:307:8: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:311:6: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:306:8: warning: Unused tactic linter: `exact PowerSeries.HasSubst.X i` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:307:8: warning: Unused tactic linter: `exact PowerSeries.HasSubst.X'` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:311:6: warning: Unused tactic linter: `simp only [MvPowerSeries.X_pow_eq, MvPowerSeries.coeff_monomial]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:341:6: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:341:6: warning: Unused tactic linter: `(
+  rw [Finsupp.le_def]
+  constructor
+  · intro h
+    have := h j
+    simp at this
+    omega
+  · intro h k
+    by_cases hk : j = k
+    · subst hk
+      simp
+      omega
+    · simp [Finsupp.single_apply, hk])` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:366:8: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:367:8: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:366:8: warning: Unused tactic linter: `(rw [neg_inj]; apply key; omega)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:367:8: warning: Unused tactic linter: `(apply Eq.symm; apply key; omega)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:379:6: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:378:7: warning: Unused tactic linter: `done` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:379:6: warning: Unused tactic linter: `(
+  rw [MvPowerSeries.coeff_mul, Finset.sum_eq_add (0, Finsupp.single i 1) (Finsupp.single i 1, 0)]
+  · simp only [MvPowerSeries.coeff_zero_eq_constantCoeff_apply]
+    try ring
+  · simp
+  · rintro ⟨a, b⟩ hab hne
+    rw [Finset.mem_antidiagonal] at hab
+    exfalso
+    have hj : ∀ j, a j + b j = (Finsupp.single i 1) j := fun j => by rw [← Finsupp.add_apply, hab]
+    by_cases ha : a i = 0
+    · apply hne.1
+      have a0 : a = 0 := by
+        ext j
+        have := hj j
+        by_cases hij : i = j
+        · subst hij
+          simp [ha]
+        · simp [Finsupp.single_apply, hij] at this
+          simp
+          omega
+      subst a0
+      simp at hab
+      rw [hab]
+    · apply hne.2
+      have b0 : b = 0 := by
+        ext j
+        have := hj j
+        by_cases hij : i = j
+        · subst hij
+          simp at this
+          simp
+          omega
+        · simp [Finsupp.single_apply, hij] at this
+          simp
+          omega
+      subst b0
+      simp at hab
+      rw [hab]
+  · intro h
+    exfalso
+    apply h
+    simp [Finset.mem_antidiagonal]
+  · intro h
+    exfalso
+    apply h
+    simp [Finset.mem_antidiagonal]
+  done)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:463:22: warning: This simp argument is unused:
+  hw.1
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [(w_low hw).1]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:470:10: warning: This simp argument is unused:
+  Finsupp.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h, (w_low hw).1, hw.1]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:470:35: warning: This simp argument is unused:
+  (w_low hw).1
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Finsupp.single_apply, h, hw.1]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:470:49: warning: This simp argument is unused:
+  hw.1
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Finsupp.single_apply, h, (w_low hw).1]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:496:6: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:496:6: warning: Unused tactic linter: `skip` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:562:8: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:562:8: warning: Unused tactic linter: `simp [MvPowerSeries.coeff_map]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:564:74: warning: Variable name `h0` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _h0
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:581:6: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:582:6: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:581:6: warning: Unused tactic linter: `exact WellFoundedLT.induction n step` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:582:6: warning: Unused tactic linter: `exact
+  (wellFounded_lt (α := Fin 2 →₀ ℕ)).induction (C := fun n => MvPowerSeries.coeff n φ⁻¹ ∈ Sadj W) n step` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:597:6: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:597:6: warning: Unused tactic linter: `rw [ca, MvPowerSeries.coeff_C]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:648:6: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:648:6: warning: Unused tactic linter: `(
+  simp only [Algebra.smul_def, MvPowerSeries.algebraMap_apply, Algebra.id.map_eq_id, RingHom.id_apply]
+  rw [sub_eq_zero, eq_comm])` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:669:6: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:669:6: warning: Unused tactic linter: `exact hz (pow_eq_zero hG)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:673:2: warning: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:681:8: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:682:8: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:765:6: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:681:8: warning: Unused tactic linter: `(rw [IsScalarTower.algebraMap_apply K (MvPowerSeries (Fin 2) K)
+      (FractionRing (MvPowerSeries (Fin 2) K))];
+  rfl)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:682:8: warning: Unused tactic linter: `simp [IsScalarTower.algebraMap_apply K (MvPowerSeries (Fin 2) K)
+      (FractionRing (MvPowerSeries (Fin 2) K))]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+src/Formalism/EllipticTorsion/EllipticTorsionProofs/WChord.lean:765:6: warning: Unused tactic linter: `(
+  refine ⟨?_, ?_⟩
+  · convert hx using 1
+  · convert hy using 1
+    simp only [WeierstrassCurve.Affine.addY, WeierstrassCurve.Affine.negY, WeierstrassCurve.Affine.negAddY,
+      WeierstrassCurve.map_a₁, WeierstrassCurve.map_a₃]
+    rfl)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+@@ wall=11.74s rc=0 maxrss=6355MiB

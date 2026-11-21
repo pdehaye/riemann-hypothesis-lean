@@ -1,0 +1,10 @@
+src/Development/AbelianVarietyTheory/BlockTheory/TwistedDiscreteSeries/MinorOrderedEntries.lean:79:0: warning: automatically included section variable(s) unused in theorem `GlobalTheory.IndefiniteRowSideFullHecke.MinorOrderedEntries.weylSub_le`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+src/Development/AbelianVarietyTheory/BlockTheory/TwistedDiscreteSeries/MinorOrderedEntries.lean:195:37: warning: `Pi.monoidHom` has been deprecated: Use `MonoidHom.pi` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.monoidHom` to `MonoidHom.pi x`).
+@@ wall=9.41s rc=0 maxrss=6593MiB

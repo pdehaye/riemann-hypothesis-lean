@@ -1,0 +1,70 @@
+files=175187 lines=17549402
+  lines                  17549402
+  unfold                 112002
+  big_literal            56673
+  change                 52378
+  rfl_term               43040
+  norm_num               26839
+  decide                 8187
+  Iff.rfl/HEq.rfl        7379
+  show_from_rfl          6810
+  by_decide              6054
+  Nat.iterate            4987
+  self_recursive_def     2740
+  delta                  2539
+  @[reducible]           853
+  Nat.recOn              534
+  by_rfl                 494
+  other_.rec             374
+  Nat.rec                339
+  brecOn/below           192
+  recOn/casesOn          86
+  exact_rfl              47
+  seal/unseal            39
+  decide_true_cfg        26
+  deriving_DecEq         21
+  termination_by         20
+  decreasing_by          19
+  Decidable_inst         18
+  Nat.Prime_lit          13
+  @[irreducible]         12
+  Meta.whnf              3
+  Decidable.decide       2
+  partial_def            2
+  addDecl                2
+  Kernel_api             1
+options:
+  maxHeartbeats                            n= 57556 files= 54080 max=64000000
+  autoImplicit                             n= 11203 files= 10743 max=None
+  maxSynthPendingDepth                     n=  7478 files=  7478 max=3
+  synthInstance.maxHeartbeats              n=  7381 files=  6477 max=1000000
+  backward.isDefEq.respectTransparency     n=  1879 files=  1727 max=None
+  linter.unusedSectionVars                 n=   874 files=   852 max=None
+  linter.unusedVariables                   n=   503 files=   272 max=None
+  linter.unusedSimpArgs                    n=   272 files=   113 max=None
+  genSizeOfSpec                            n=   181 files=   148 max=None
+  genInjectivity                           n=   179 files=   146 max=None
+  linter.style.haveILetI                   n=   122 files=   104 max=None
+  backward.isDefEq.respectTransparency.types n=    87 files=    62 max=None
+  synthInstance.maxSize                    n=    51 files=    47 max=4000
+  linter.dupNamespace                      n=    46 files=    46 max=None
+  linter.overlappingInstances              n=    40 files=    38 max=None
+  linter.all                               n=    38 files=    38 max=None
+  allowUnsafeReducibility                  n=    37 files=    33 max=None
+  maxRecDepth                              n=    34 files=    22 max=1000000
+  linter.deprecated                        n=    34 files=    34 max=None
+  backward.defeqAttrib.useBackward         n=    33 files=    11 max=None
+  hygiene                                  n=    31 files=    15 max=None
+  linter.style.longLine                    n=    23 files=    23 max=None
+  linter.unusedTactic                      n=    12 files=    12 max=None
+  linter.unreachableTactic                 n=    12 files=    12 max=None
+  linter.unnecessarySeqFocus               n=     9 files=     9 max=None
+  pp.fullNames                             n=     9 files=     8 max=None
+  quotPrecheck                             n=     7 files=     6 max=None
+  smartUnfolding                           n=     3 files=     2 max=None
+  linter.auxLemma                          n=     1 files=     1 max=None
+  Elab.async                               n=     1 files=     1 max=None
+  linter.unnecessarySimpa                  n=     1 files=     1 max=None
+  genSizeOf                                n=     1 files=     1 max=None
+  warn.classDefReducibility                n=     1 files=     1 max=None
+notable: {'big_literal': 56183, 'decide_true_cfg': 26, 'decide_with_big_numeral': 411, 'Nat.Prime_lit': 13, 'partial_def': 2, 'addDecl': 2, 'Kernel_api': 1}

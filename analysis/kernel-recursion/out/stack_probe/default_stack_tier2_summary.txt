@@ -1,0 +1,7 @@
+# targets
+Formalism.LocalToGlobal.Columns.ColFormsInst
+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsNeSame
+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.TwistDataAgreeAcrossCoefficients
+# result
+Build completed successfully (9259 jobs).
+@@ wall=977.48s rc=0 maxrss=9668MiB

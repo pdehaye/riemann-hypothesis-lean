@@ -1,0 +1,17 @@
+project theorems to re-check: 19715
+declarations re-checked: 19715, owner theorems: 11624
+re-checked: 11624, kernel re-check failures: 0
+edges by use/locality:
+  api/remote: 6869
+  api/same-dir: 5730
+  api/same-module: 4454
+  eqn/remote: 149
+  eqn/same-dir: 64
+  eqn/same-module: 219
+  kernel+eqn/remote: 19
+  kernel+eqn/same-dir: 9
+  kernel+eqn/same-module: 27
+  kernel/remote: 8563
+  kernel/same-dir: 6596
+  kernel/same-module: 5710
+@@ wall=283.25s rc=0 maxrss=12548MiB

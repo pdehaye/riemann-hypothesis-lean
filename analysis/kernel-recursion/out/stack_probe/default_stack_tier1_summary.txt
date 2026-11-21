@@ -1,0 +1,11 @@
+# targets
+Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.MonomialRepresentations.PermChar
+Formalism.DegreeFormula.PointDegree.FlagDeg
+Development.AutomorphicArithmetic.ThetaCorrespondence.CrystallineComparison.CFIncl
+Development.AutomorphicArithmetic.ThetaCorrespondence.CrystallineComparison.CFPlain
+Development.AutomorphicArithmetic.ThetaCorrespondence.CrystallineComparison.LogarithmCompat
+Formalism.QuotientMetricDivisors.HermitianTwistDivisors.PlaceSumSquares
+Formalism.LocalToGlobal.Columns.BaseInst
+# result
+Build completed successfully (9134 jobs).
+@@ wall=1700.58s rc=0 maxrss=9504MiB
